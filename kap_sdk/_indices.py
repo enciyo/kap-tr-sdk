@@ -1,9 +1,8 @@
 import logging
-from models.indices import Indice
 from pyppeteer import launch
 from bs4 import BeautifulSoup
-from models.company import Company
 from typing import Dict
+from kap_sdk.models.indices import Indice
 
 
 URL = "https://www.kap.org.tr/tr/Endeksler"

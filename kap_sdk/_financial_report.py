@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from models.company import Company
+from kap_sdk.models.company import Company
 import zipfile
 import os
 import shutil

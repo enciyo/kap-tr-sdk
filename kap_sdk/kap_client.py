@@ -1,14 +1,15 @@
 import diskcache
-from _companies import scrape_companies
-from _indices import scrape_indices
-from _company_info import scrape_company_info
-from _financial_report import get_financial_report
-from models.company import Company
-from models.indices import Indice
-from models.company_info import CompanyInfo
+from kap_sdk._companies import scrape_companies
+from kap_sdk._indices import scrape_indices
+from kap_sdk._company_info import scrape_company_info
+from kap_sdk._financial_report import get_financial_report
+from kap_sdk.models.company import Company
+from kap_sdk.models.indices import Indice
+from kap_sdk.models.company_info import CompanyInfo
 from typing import Optional
 
 _CACHE_KEY = "kap_cache"
+
 
 class KapClient:
 
@@ -69,8 +70,5 @@ class KapClient:
         self.cache.set(key, financial_report, expire=self.cache_expiry)
         return financial_report
 
-
     def clear_cache(self):
         self.cache.clear()
-
-

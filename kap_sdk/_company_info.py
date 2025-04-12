@@ -1,9 +1,9 @@
 from asyncio.log import logger
-from models.company import Company
 from pyppeteer import launch
-from models.company import Company
 from bs4 import BeautifulSoup
-from models.company_info import CompanyInfo
+from kap_sdk.models.company import Company
+from kap_sdk.models.company import Company
+from kap_sdk.models.company_info import CompanyInfo
 
 _GENERAL_URL = "https://www.kap.org.tr/tr/sirket-bilgileri/ozet/"
 

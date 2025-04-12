@@ -1,7 +1,7 @@
 import logging
 from pyppeteer import launch
 from bs4 import BeautifulSoup
-from models.company import Company
+from kap_sdk.models.company import Company
 
 URL = "https://www.kap.org.tr/tr/bist-sirketler"
 

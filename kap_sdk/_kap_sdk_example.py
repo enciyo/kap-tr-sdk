@@ -1,6 +1,6 @@
 import asyncio
 
-from kap_client import KapClient
+from kap_sdk.kap_client import KapClient
 
 
 async def sample_get_company():
