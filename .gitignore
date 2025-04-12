@@ -1,4 +1,7 @@
 kap_cache
 .DS_Store
 __pycache__/
-
+.venv
+build
+dist
+kap_sdk.egg-info

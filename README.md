@@ -43,6 +43,10 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
+## Future Features
+
+*   Company announcements retrieval
+
 ## Contributing
 
 [Contribution guidelines will be added here]
