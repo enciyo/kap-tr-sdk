@@ -46,11 +46,3 @@ if __name__ == "__main__":
 ## Future Features
 
 *   Company announcements retrieval
-
-## Contributing
-
-[Contribution guidelines will be added here]
-
-## License
-
-[License information will be added here]
