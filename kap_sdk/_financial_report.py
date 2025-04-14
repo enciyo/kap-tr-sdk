@@ -1,12 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
+from kap_sdk._search_oid import _search_oid
 from kap_sdk.models.company import Company
 import zipfile
 import os
 import shutil
 
 
-URL = "https://www.kap.org.tr/tr/api/member/filter/"
 DOWNLOAD_URL = "https://www.kap.org.tr/tr/api/home-financial/download-file/"
 
 
@@ -16,14 +16,6 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
     data.raise_for_status()
     return data.content
 
-
-def _search_oid(company: Company) -> dict:
-    response = requests.get(f"{URL}{company.code}")
-    response.raise_for_status()
-    oid = response.json()[0]["mkkMemberOid"]
-    if not oid:
-        raise Exception(f"Company {company.code} not found.")
-    return oid
 
 
 def _extract_data(data: str) -> dict:

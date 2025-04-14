@@ -2,7 +2,6 @@ import asyncio
 
 from kap_sdk.kap_client import KapClient
 
-
 async def sample_get_company():
     client = KapClient()
     company = await client.get_company("BIMAS")
@@ -29,12 +28,20 @@ async def sample_get_indices():
     message = f"Sample get indices: {indices}"
     print(message)
 
+
+async def sample_get_announcements():
+    client = KapClient()
+    company = await client.get_company("BIMAS")
+    announce = await client.get_announcements(company)
+    message = f"Sample get announcements: {announce}"
+    print(message)
+
 async def main():
     await sample_get_company()
     await sample_get_company_info()
-    await sample_get_indices()
     await sample_get_financial_report()
-
+    await sample_get_indices()
+    await sample_get_announcements()
 
 
 if __name__ == "__main__":
