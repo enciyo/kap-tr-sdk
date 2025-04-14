@@ -79,14 +79,17 @@ class KapClient:
 
     async def get_announcements(
         self,
-        company: Company,
+        company: Company = None,
         fromdate=datetime.today().date() - timedelta(days=30),
         todate=datetime.today().date(),
         disclosure_type: list[AnnouncementType] = None,
         fund_types: list[FundType] = FundType.default(),
         member_types: list[MemberType] = MemberType.default(),
     ) -> list[Disclosure]:
-        oid = _search_oid(company)
+        oid = None
+        if company:
+            oid = _search_oid(company)
+
         data = {
             "fromDate": fromdate.strftime("%d.%m.%Y"),
             "toDate": todate.strftime("%d.%m.%Y"),
