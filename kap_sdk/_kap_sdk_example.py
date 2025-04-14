@@ -32,7 +32,7 @@ async def sample_get_indices():
 async def sample_get_announcements():
     client = KapClient()
     company = await client.get_company("BIMAS")
-    announce = await client.get_announcements(company)
+    announce = await client.get_announcements(company, "2022-01-01", "2022-12-31")
     message = f"Sample get announcements: {announce}"
     print(message)
 

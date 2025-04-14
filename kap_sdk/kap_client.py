@@ -13,7 +13,6 @@ from kap_sdk.models.company import Company
 from kap_sdk.models.disclosure import Disclosure, DisclosureBasic, DisclosureDetail
 from kap_sdk.models.indices import Indice
 from kap_sdk.models.company_info import CompanyInfo
-from kap_sdk._announcement import _get_annountments
 from typing import Optional
 
 _CACHE_KEY = "kap_cache"
