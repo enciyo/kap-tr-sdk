@@ -5,3 +5,4 @@ __pycache__/
 build
 dist
 kap_sdk.egg-info
+.publish

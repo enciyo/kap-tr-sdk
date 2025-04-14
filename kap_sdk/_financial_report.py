@@ -16,8 +16,6 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
     data.raise_for_status()
     return data.content
 
-
-
 def _extract_data(data: str) -> dict:
     soup = BeautifulSoup(data, 'html.parser')
     table = soup.find(
