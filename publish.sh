@@ -15,6 +15,7 @@ rm -rf dist
 rm -rf *.egg-info
 rm -rf build
 rm -rf .pytest_cache
+rm -rf .publish
 
 git add .
 git commit -m "Publish to PyPI"

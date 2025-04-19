@@ -42,6 +42,13 @@ async def sample_get_announcements():
     message = f"Sample get announcements: {announcements}"
     print(message)
 
+
+async def sample_get_sectors():
+    client = KapClient()
+    sectors = await client.get_sectors()
+    message = f"Sample get sectors: {sectors}"
+    print(message)
+
 async def main():
     await sample_get_company()
     await sample_get_company_info()
@@ -52,7 +59,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(main=main())
 
 
 

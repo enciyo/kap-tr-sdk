@@ -13,6 +13,8 @@ from kap_sdk.models.company import Company
 from kap_sdk.models.disclosure import Disclosure, DisclosureBasic, DisclosureDetail
 from kap_sdk.models.indices import Indice
 from kap_sdk.models.company_info import CompanyInfo
+from kap_sdk.models.sectors import Sector
+from kap_sdk._sectors import scrape_sectors
 from typing import Optional
 
 _CACHE_KEY = "kap_cache"
@@ -107,6 +109,15 @@ class KapClient:
             disclosureDetail=DisclosureDetail(**item["disclosureDetail"])
         ) for item in json_data]
         return disclosures
+
+    async def get_sectors(self) -> list[Sector]:
+        key = "sectors"
+        cached_sectors = self.cache.get(key=key)
+        if cached_sectors:
+            return cached_sectors
+        sectors = await scrape_sectors()
+        self.cache.set(key, sectors, expire=self.cache_expiry)
+        return sectors
 
     def clear_cache(self):
         self.cache.clear()
