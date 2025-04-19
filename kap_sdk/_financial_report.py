@@ -42,20 +42,31 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
     oid = _search_oid(company)
     content = _download_xls(oid, year=year)
     zip_file_path = f"{company.code}_financial_report.zip"
-    with open(zip_file_path, "wb") as file:
-        file.write(content)
+    try:
+        with open(zip_file_path, "wb") as file:
+            file.write(content)
 
-    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-        zip_ref.extractall(f"{company.code}_financial_report")
-        extracted_data = {}
-        for file_name in zip_ref.namelist():
-            if file_name.endswith('.xls'):
-                with zip_ref.open(file_name) as file:
-                    period = f"period_{file_name.split('_')[-1]}"
-                    period = period.replace('.xls', '')
-                    data = file.read()
-                    extracted_data[period] = _extract_data(data)
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            zip_ref.extractall(f"{company.code}_financial_report")
+            files = zip_ref.namelist()
+            if len(files) == 0:
+                raise ValueError(f"No found {company.code} financial report for {year}")
+            extracted_data = {}
+            for file_name in zip_ref.namelist():
+                if file_name.endswith('.xls'):
+                    with zip_ref.open(file_name) as file:
+                        period = f"period_{file_name.split('_')[-1]}"
+                        period = period.replace('.xls', '')
+                        data = file.read()
+                        extracted_data[period] = _extract_data(data)
+    except Exception as e:
+        print(f"Error extracting financial report: {e}")
+        raise e
+    finally:
+        if os.path.exists(zip_file_path):
+            os.remove(zip_file_path)
+        if os.path.exists(f"{company.code}_financial_report"):
+            shutil.rmtree(f"{company.code}_financial_report")
 
-    os.remove(zip_file_path)
-    shutil.rmtree(f"{company.code}_financial_report")
+
     return extracted_data
