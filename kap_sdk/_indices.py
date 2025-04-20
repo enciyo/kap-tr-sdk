@@ -13,7 +13,11 @@ async def scrape_indices() -> list[Indice]:
     browser = None
 
     try:
-        browser = await launch()
+        browser = await launch(
+            handleSIGINT = "false",
+            handleSIGTERM = "false",
+            handleSIGHUP = "false",
+        )
         page = await browser.newPage()
         await page.goto(URL, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#indicesTable', timeout=10000)

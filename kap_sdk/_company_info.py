@@ -22,7 +22,11 @@ def _find_cells(
 async def scrape_company_info(company: Company) -> CompanyInfo:
     browser = None
     try:
-        browser = await launch()
+        browser = await launch(
+            handleSIGINT = "false",
+            handleSIGTERM = "false",
+            handleSIGHUP = "false",
+        )
         page = await browser.newPage()
         await page.goto(_GENERAL_URL + company.path, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#financialTable', timeout=10000)

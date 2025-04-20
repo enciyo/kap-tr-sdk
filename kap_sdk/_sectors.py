@@ -10,7 +10,11 @@ async def scrape_sectors() -> list[Sector]:
     browser = None
 
     try:
-        browser = await launch()
+        browser = await launch(
+            handleSIGINT = "false",
+            handleSIGTERM = "false",
+            handleSIGHUP = "false",
+        )
         page = await browser.newPage()
 
         await page.goto(_URL, {"waitUntil": "domcontentloaded"})

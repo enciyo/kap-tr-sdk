@@ -23,7 +23,11 @@ async def scrape_companies() -> list[Company]:
     browser = None
 
     try:
-        browser = await launch()
+        browser = await launch(
+            handleSIGINT = "false",
+            handleSIGTERM = "false",
+            handleSIGHUP = "false",
+        )
         page = await browser.newPage()
 
         await page.goto(URL, {"waitUntil": "domcontentloaded"})
