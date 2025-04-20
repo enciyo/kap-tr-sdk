@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kap_sdk',
-    version='0.1.11',
+    version='0.1.12',
     description='Kap Data Scrapping',
     packages=find_packages(),
     install_requires=[

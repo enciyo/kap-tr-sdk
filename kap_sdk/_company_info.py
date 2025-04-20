@@ -14,10 +14,14 @@ def _find_cells(
     data = soup.find('h3', string=string)
     if data:
         next_container = data.find_next(["p", "div"])
+        if next_container is None:
+            return [""]
         text_elements = next_container.find_all(string=True, recursive=True)
+        if not text_elements:
+            return [""]
         return [a.text for a in text_elements]
     return [""]
-""
+
 
 async def scrape_company_info(company: Company) -> CompanyInfo:
     browser = None
