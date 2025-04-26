@@ -17,8 +17,8 @@ async def sample_get_company_info():
 
 async def sample_get_financial_report():
     client = KapClient()
-    company = await client.get_company("TURSG")
-    report = await client.get_financial_report(company, "2025")
+    company = await client.get_company("TUPRS")
+    report = await client.get_financial_report(company, "2024")
     message = f"Sample get financial report: {report}"
     print(message)
 

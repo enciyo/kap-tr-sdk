@@ -17,7 +17,7 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
     return data.content
 
 
-def _extract_data(data: str) -> dict:
+def _extract_data(data: str, price: float) -> dict:
     soup = BeautifulSoup(data, 'html.parser')
     table = soup.find(
         'table', {'class': 'financial-table'})
@@ -32,20 +32,30 @@ def _extract_data(data: str) -> dict:
 
             key = key_cell.text.strip() if key_cell else ""
             value = value_cell.text.strip() if value_cell else ""
+            value = value.replace(".", "")
+            if value == "":
+                value = 0.0
 
             if key or value:
-                extracted_data.append({"key": key, "value": value})
+                extracted_data.append({"key": key, "value": (float(value) * float(price))})
 
     return extracted_data
 
 
-def _find_financial_header_title(soup: BeautifulSoup) -> dict:
-    soup = BeautifulSoup(soup, 'html.parser')
+def _find_financial_header_title(data: str) -> dict:
+    soup = BeautifulSoup(data, 'html.parser')
     header = soup.find('table', {'class': 'financial-header-table'})
     row_title = header.find_all('tr')[1].find_all("td")[1].text.strip().lower().replace(" ", "_")
+    row_price = header.find_all('tr')[0].find_all("td")[1].text.strip().replace("TL", "").replace(".", "")
+
+    try:
+        price = float(row_price)
+    except ValueError:
+        price = 1.0
 
     return {
         "title": row_title,
+        "price": price
     }
 
 
@@ -72,7 +82,7 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
                         period = f"period_{file_name.split('_')[-1]}_{meta['title']}"
                         period = period.replace('.xls', '')
                         extracted_data[period] = _extract_data(
-                            data)
+                            data, meta['price'])
     except Exception as e:
         print(f"Error extracting financial report: {e}")
         raise e
