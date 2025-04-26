@@ -19,7 +19,7 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
 def _extract_data(data: str) -> dict:
     soup = BeautifulSoup(data, 'html.parser')
     table = soup.find(
-        'table', {'class': 'financial-table tbl_general_role_210015'})
+        'table', {'class': 'financial-table'})
     extracted_data = []
     rows = table.find_all('tr')[7:]
     for row in rows:
@@ -36,6 +36,14 @@ def _extract_data(data: str) -> dict:
                 extracted_data.append({"key": key, "value": value})
 
     return extracted_data
+
+def _find_financial_header_title(soup: BeautifulSoup) -> str:
+    soup = BeautifulSoup(soup, 'html.parser')
+    header = soup.find('table', {'class': 'financial-header-table'})
+    rows = header.find_all('tr')[1]
+    td = rows.find_all('td')[1]
+    return td.text.strip().lower().replace(" ", "_")
+
 
 
 async def get_financial_report(company: Company, year: str = "2023") -> dict:
@@ -55,14 +63,16 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
             for file_name in zip_ref.namelist():
                 if file_name.endswith('.xls'):
                     with zip_ref.open(file_name) as file:
-                        period = f"period_{file_name.split('_')[-1]}"
-                        period = period.replace('.xls', '')
                         data = file.read()
+                        meta = _find_financial_header_title(data)
+                        period = f"period_{file_name.split('_')[-1]}_{meta}"
+                        period = period.replace('.xls', '')
                         extracted_data[period] = _extract_data(data)
     except Exception as e:
         print(f"Error extracting financial report: {e}")
         raise e
     finally:
+        pass
         if os.path.exists(zip_file_path):
             os.remove(zip_file_path)
         if os.path.exists(f"{company.code}_financial_report"):
