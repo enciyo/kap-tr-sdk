@@ -17,7 +17,7 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
     return data.content
 
 
-def _extract_data(data: str, price: float) -> dict:
+def _extract_data(data: str) -> dict:
     soup = BeautifulSoup(data, 'html.parser')
     table = soup.find(
         'table', {'class': 'financial-table'})
@@ -34,20 +34,18 @@ def _extract_data(data: str, price: float) -> dict:
             value = value_cell.text.strip() if value_cell else ""
 
             if key or value:
-                extracted_data.append({"key": key, "value": value * price})
+                extracted_data.append({"key": key, "value": value})
 
     return extracted_data
 
 
-def _find_financial_header_title(soup: BeautifulSoup) -> str:
+def _find_financial_header_title(soup: BeautifulSoup) -> dict:
     soup = BeautifulSoup(soup, 'html.parser')
     header = soup.find('table', {'class': 'financial-header-table'})
-    row_title = header.find_all('tr')[1].find_all("td")[1]
-    row_price = header.find_all('tr')[0].find_all("td")[1].replace("TL", "")
+    row_title = header.find_all('tr')[1].find_all("td")[1].text.strip().lower().replace(" ", "_")
 
     return {
-        "title": row_title.text.strip().lower().replace(" ", "_"),
-        "price": float(row_price) if row_price else 1.0
+        "title": row_title,
     }
 
 
@@ -71,10 +69,10 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
                     with zip_ref.open(file_name) as file:
                         data = file.read()
                         meta = _find_financial_header_title(data)
-                        period = f"period_{file_name.split('_')[-1]}_{meta.title}"
+                        period = f"period_{file_name.split('_')[-1]}_{meta['title']}"
                         period = period.replace('.xls', '')
                         extracted_data[period] = _extract_data(
-                            data, meta.price)
+                            data)
     except Exception as e:
         print(f"Error extracting financial report: {e}")
         raise e

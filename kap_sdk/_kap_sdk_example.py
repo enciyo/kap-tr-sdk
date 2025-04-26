@@ -50,12 +50,12 @@ async def sample_get_sectors():
     print(message)
 
 async def main():
-    await sample_get_company()
-    await sample_get_company_info()
+    #await sample_get_company()
+    #await sample_get_company_info()
     await sample_get_financial_report()
-    await sample_get_indices()
-    await sample_get_announcements_by_company()
-    await sample_get_announcements()
+    #await sample_get_indices()
+    #await sample_get_announcements_by_company()
+    #await sample_get_announcements()
 
 
 if __name__ == "__main__":
