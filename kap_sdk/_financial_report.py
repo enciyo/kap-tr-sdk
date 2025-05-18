@@ -3,8 +3,7 @@ from bs4 import BeautifulSoup
 from kap_sdk._search_oid import _search_oid
 from kap_sdk.models.company import Company
 import zipfile
-import os
-import shutil
+import io
 
 
 DOWNLOAD_URL = "https://www.kap.org.tr/tr/api/home-financial/download-file/"
@@ -62,13 +61,9 @@ def _find_financial_header_title(data: str) -> dict:
 async def get_financial_report(company: Company, year: str = "2023") -> dict:
     oid = _search_oid(company)
     content = _download_xls(oid, year=year)
-    zip_file_path = f"{company.code}_financial_report.zip"
     try:
-        with open(zip_file_path, "wb") as file:
-            file.write(content)
-
-        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-            zip_ref.extractall(f"{company.code}_financial_report")
+        zip_file = io.BytesIO(content)
+        with zipfile.ZipFile(zip_file, 'r') as zip_ref:
             files = zip_ref.namelist()
             if len(files) == 0:
                 raise ValueError(
@@ -88,9 +83,5 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
         raise e
     finally:
         pass
-        if os.path.exists(zip_file_path):
-            os.remove(zip_file_path)
-        if os.path.exists(f"{company.code}_financial_report"):
-            shutil.rmtree(f"{company.code}_financial_report")
 
     return extracted_data
