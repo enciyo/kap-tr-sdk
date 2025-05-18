@@ -1,3 +1,5 @@
+import os
+import tempfile
 from kap_sdk.models.announcement_type import AnnouncementType, FundType, MemberType
 import datetime
 from datetime import datetime, timedelta
@@ -17,7 +19,9 @@ from kap_sdk.models.sectors import Sector
 from kap_sdk._sectors import scrape_sectors
 from typing import Optional
 
-_CACHE_KEY = "kap_cache"
+
+_CACHE_DIR = os.path.join(tempfile.gettempdir(), "kap_cache")
+os.makedirs(_CACHE_DIR, exist_ok=True)
 
 
 class KapClient:
@@ -26,7 +30,7 @@ class KapClient:
         self,
         cache_expiry=3600
     ):
-        self.cache = diskcache.Cache(_CACHE_KEY)
+        self.cache = diskcache.Cache(_CACHE_DIR)
         self.cache_expiry = cache_expiry
 
     async def get_companies(self) -> list[Company]:
