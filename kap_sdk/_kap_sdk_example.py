@@ -1,6 +1,8 @@
 import asyncio
 
 from kap_sdk.kap_client import KapClient
+import random
+import json
 
 async def sample_get_company():
     client = KapClient()
@@ -17,8 +19,10 @@ async def sample_get_company_info():
 
 async def sample_get_financial_report():
     client = KapClient()
-    company = await client.get_company("TUPRS")
-    report = await client.get_financial_report(company, "2024")
+    company = await client.get_company("BIMAS")
+    report = await client.get_financial_report(company, "2025")
+    with open("financial_report.json", "w") as f:
+        f.write(json.dumps(report, indent=4, ensure_ascii=False))
     message = f"Sample get financial report: {report}"
     print(message)
 

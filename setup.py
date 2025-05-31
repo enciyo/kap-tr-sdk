@@ -9,6 +9,7 @@ setup(
         'requests',
         'beautifulsoup4',
         'pyppeteer',
-        "diskcache"
+        "diskcache",
+        "pandas",
     ],
 )

@@ -4,7 +4,10 @@ from kap_sdk._search_oid import _search_oid
 from kap_sdk.models.company import Company
 import zipfile
 import io
-
+import pandas as pd
+from io import StringIO
+from typing import List, Dict, Union
+import pandas as pd
 
 DOWNLOAD_URL = "https://www.kap.org.tr/tr/api/home-financial/download-file/"
 
@@ -16,36 +19,44 @@ def _download_xls(mkkMemberOid: str, year: str) -> str:
     return data.content
 
 
-def _extract_data(data: str, price: float) -> dict:
-    soup = BeautifulSoup(data, 'html.parser')
-    table = soup.find(
-        'table', {'class': 'financial-table'})
+
+def _extract_data(path: str, price: float, table_indices: List[int] = [1, 300, 453]) -> List[Dict[str, Union[str, float]]]:
+    tables = pd.read_html(path)
+    selected_tables = [tables[i].iloc[:, [1, 3]].dropna().reset_index(drop=True) for i in table_indices if i < len(tables)]
+
+    concat_table = pd.concat(selected_tables, ignore_index=True)
+    concat_table.columns = ['key', 'value']
+
+    def clean_value(value: str, price: float) -> Union[float, None]:
+        try:
+            cleaned_value = value.strip().replace(".", "").replace(",", ".")
+            return float(cleaned_value) * price
+        except ValueError:
+            print(f"Could not convert value: {value}")
+            return None
+
+    concat_table['value'] = concat_table['value'].apply(lambda x: clean_value(x, price))
+    concat_table.dropna(inplace=True)
+
     extracted_data = []
-    rows = table.find_all('tr')[7:]
-    for row in rows:
-        cells = row.find_all('td')
-        if cells:
-            key_cell = cells[1].find(
-                'div', {'class': 'gwt-Label'}) if len(cells) > 1 else None
-            value_cell = cells[7] if len(cells) > 7 else None
-
-            key = key_cell.text.strip() if key_cell else ""
-            value = value_cell.text.strip() if value_cell else ""
-            value = value.replace(".", "")
-            if value == "":
-                value = 0.0
-
-            if key or value:
-                extracted_data.append({"key": key, "value": (float(value) * float(price))})
+    for index, row in concat_table.iterrows():
+        extracted_data.append({
+            "key": row['key'].strip(),
+            "value": row['value']
+        })
 
     return extracted_data
+
+
 
 
 def _find_financial_header_title(data: str) -> dict:
     soup = BeautifulSoup(data, 'html.parser')
     header = soup.find('table', {'class': 'financial-header-table'})
-    row_title = header.find_all('tr')[1].find_all("td")[1].text.strip().lower().replace(" ", "_")
-    row_price = header.find_all('tr')[0].find_all("td")[1].text.strip().replace("TL", "").replace(".", "")
+    row_title = header.find_all('tr')[1].find_all(
+        "td")[1].text.strip().lower().replace(" ", "_")
+    row_price = header.find_all('tr')[0].find_all(
+        "td")[1].text.strip().replace("TL", "").replace(".", "")
 
     try:
         price = float(row_price)
@@ -73,11 +84,11 @@ async def get_financial_report(company: Company, year: str = "2023") -> dict:
                 if file_name.endswith('.xls'):
                     with zip_ref.open(file_name) as file:
                         data = file.read()
-                        meta = _find_financial_header_title(data)
-                        period = f"period_{file_name.split('_')[-1]}_{meta['title']}"
-                        period = period.replace('.xls', '')
-                        extracted_data[period] = _extract_data(
-                            data, meta['price'])
+                    meta = _find_financial_header_title(data)
+                    period = f"period_{file_name.split('_')[-1]}_{meta['title']}"
+                    period = period.replace('.xls', '')
+                    extracted_data[period] = _extract_data(
+                        StringIO(data.decode('utf-8')), meta['price'])
     except Exception as e:
         print(f"Error extracting financial report: {e}")
         raise e
