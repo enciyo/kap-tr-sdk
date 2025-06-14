@@ -16,6 +16,16 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+# tomli kütüphanesini kontrol et ve yükle
+if ! python -c "import tomli" 2>/dev/null; then
+    echo "tomli kütüphanesi bulunamadı, yükleniyor..."
+    pip install tomli
+    if [ $? -ne 0 ]; then
+        echo "tomli kütüphanesi yüklenemedi!"
+        exit 1
+    fi
+fi
+
 # Versiyon numarasını pyproject.toml dosyasından al
 version=$(python -c "import tomli; print(tomli.load(open('pyproject.toml', 'rb'))['project']['version'])")
 if [ -z "$version" ]; then
