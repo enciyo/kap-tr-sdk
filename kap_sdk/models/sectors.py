@@ -3,6 +3,7 @@ import logging
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 from typing import List
+from kap_sdk import _get_browser_config
 
 @dataclass
 class Sector:
@@ -33,11 +34,8 @@ async def scrape_sectors() -> List[Sector]:
     browser = None
 
     try:
-        browser = await launch(
-            handleSIGINT="false",
-            handleSIGTERM="false",
-            handleSIGHUP="false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
 
         await page.goto(_URL, {"waitUntil": "domcontentloaded"})

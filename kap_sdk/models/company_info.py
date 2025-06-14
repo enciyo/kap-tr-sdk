@@ -3,6 +3,7 @@ from asyncio.log import logger
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 from kap_sdk.models.company import Company
+from kap_sdk import _get_browser_config
 
 
 @dataclass
@@ -50,11 +51,8 @@ async def scrape_company_info(company: Company) -> 'CompanyInfo':
     """
     browser = None
     try:
-        browser = await launch(
-            handleSIGINT="false",
-            handleSIGTERM="false",
-            handleSIGHUP="false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
         await page.goto(_GENERAL_URL + company.path, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#financialTable', timeout=10000)

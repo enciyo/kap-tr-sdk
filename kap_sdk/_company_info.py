@@ -2,8 +2,8 @@ from asyncio.log import logger
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 from kap_sdk.models.company import Company
-from kap_sdk.models.company import Company
 from kap_sdk.models.company_info import CompanyInfo
+from kap_sdk import _get_browser_config
 
 _GENERAL_URL = "https://www.kap.org.tr/tr/sirket-bilgileri/ozet/"
 
@@ -26,18 +26,14 @@ def _find_cells(
 async def scrape_company_info(company: Company) -> CompanyInfo:
     browser = None
     try:
-        browser = await launch(
-            handleSIGINT = "false",
-            handleSIGTERM = "false",
-            handleSIGHUP = "false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
         await page.goto(_GENERAL_URL + company.path, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#financialTable', timeout=10000)
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
         info = CompanyInfo()
-
 
         info.address = _find_cells(soup, 'Merkez Adresi')[0]
         info.mail = _find_cells(soup, 'Elektronik Posta Adresi')
@@ -54,6 +50,3 @@ async def scrape_company_info(company: Company) -> CompanyInfo:
     finally:
         if browser:
             await browser.close()
-
-
-

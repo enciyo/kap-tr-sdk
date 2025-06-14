@@ -405,6 +405,7 @@ dependencies = [
     { name = "pandas", version = "2.3.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9'" },
     { name = "pyppeteer" },
     { name = "requests" },
+    { name = "tomli" },
 ]
 
 [package.optional-dependencies]
@@ -431,6 +432,7 @@ requires-dist = [
     { name = "pyppeteer", specifier = ">=1.0.2" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.3.1" },
     { name = "requests", specifier = ">=2.28.1" },
+    { name = "tomli", specifier = ">=2.0.1" },
 ]
 provides-extras = ["dev"]
 

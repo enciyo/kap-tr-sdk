@@ -1,6 +1,6 @@
 [project]
 name = "kap_sdk"
-version = "0.1.22"
+version = "0.1.23"
 description = "KAP (Kamuyu Aydınlatma Platformu) üzerinden veri çekmek için bir Python SDK"
 authors = [{name = "Mustafa Kilic", email = "mustafa@example.com"}]
 readme = "README.md"
@@ -28,3 +28,6 @@ dev = [
 [build-system]
 requires = ["setuptools>=42.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["kap_sdk"]

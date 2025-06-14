@@ -3,6 +3,7 @@ import logging
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 from typing import List
+from kap_sdk import _get_browser_config
 
 @dataclass
 class Company:
@@ -47,11 +48,8 @@ async def scrape_companies() -> List[Company]:
     browser = None
 
     try:
-        browser = await launch(
-            handleSIGINT="false",
-            handleSIGTERM="false",
-            handleSIGHUP="false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
 
         await page.goto(URL, {"waitUntil": "domcontentloaded"})

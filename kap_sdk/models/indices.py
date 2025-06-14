@@ -3,6 +3,7 @@ import logging
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 from typing import Dict, List
+from kap_sdk import _get_browser_config
 
 @dataclass
 class Indice:
@@ -25,11 +26,8 @@ async def scrape_indices() -> List[Indice]:
     browser = None
 
     try:
-        browser = await launch(
-            handleSIGINT="false",
-            handleSIGTERM="false",
-            handleSIGHUP="false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
         await page.goto(URL, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#indicesTable', timeout=10000)

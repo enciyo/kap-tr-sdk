@@ -2,6 +2,7 @@ import logging
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 from kap_sdk.models.sectors import Sector, SubSector
+from kap_sdk import _get_browser_config
 
 # KAP sektörler sayfasının URL'si
 _URL = "https://www.kap.org.tr/tr/Sektorler"
@@ -17,11 +18,8 @@ async def scrape_sectors() -> list[Sector]:
 
     try:
         # Tarayıcıyı başlat ve sinyal yönetimini devre dışı bırak
-        browser = await launch(
-            handleSIGINT="false",
-            handleSIGTERM="false",
-            handleSIGHUP="false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
 
         # Belirtilen URL'ye git ve DOM'un yüklenmesini bekle

@@ -3,21 +3,17 @@ from pyppeteer import launch
 from bs4 import BeautifulSoup
 from typing import Dict
 from kap_sdk.models.indices import Indice
-
+from kap_sdk import _get_browser_config
 
 URL = "https://www.kap.org.tr/tr/Endeksler"
-
 
 async def scrape_indices() -> list[Indice]:
     indices = []
     browser = None
 
     try:
-        browser = await launch(
-            handleSIGINT = "false",
-            handleSIGTERM = "false",
-            handleSIGHUP = "false",
-        )
+        config = _get_browser_config()
+        browser = await launch(**config)
         page = await browser.newPage()
         await page.goto(URL, {"waitUntil": "domcontentloaded"})
         await page.waitForSelector('#indicesTable', timeout=10000)
