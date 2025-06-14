@@ -19,18 +19,36 @@ fi
 # tomli kütüphanesini kontrol et ve yükle
 if ! python -c "import tomli" 2>/dev/null; then
     echo "tomli kütüphanesi bulunamadı, yükleniyor..."
-    pip install tomli
+    python -m pip install tomli --user
     if [ $? -ne 0 ]; then
-        echo "tomli kütüphanesi yüklenemedi!"
+        echo "tomli kütüphanesi yüklenemedi, alternatif yöntem deneniyor..."
+        python -m pip install toml --user
+        if [ $? -ne 0 ]; then
+            echo "toml kütüphanesi de yüklenemedi!"
+            exit 1
+        else
+            # Versiyon numarasını pyproject.toml dosyasından al (toml ile)
+            version=$(python -c "import toml; print(toml.load('pyproject.toml')['project']['version'])")
+            if [ -z "$version" ]; then
+                echo "Versiyon numarası alınamadı!"
+                exit 1
+            fi
+        fi
+    else
+        # Versiyon numarasını pyproject.toml dosyasından al (tomli ile)
+        version=$(python -c "import tomli; print(tomli.load(open('pyproject.toml', 'rb'))['project']['version'])")
+        if [ -z "$version" ]; then
+            echo "Versiyon numarası alınamadı!"
+            exit 1
+        fi
+    fi
+else
+    # Versiyon numarasını pyproject.toml dosyasından al (tomli ile)
+    version=$(python -c "import tomli; print(tomli.load(open('pyproject.toml', 'rb'))['project']['version'])")
+    if [ -z "$version" ]; then
+        echo "Versiyon numarası alınamadı!"
         exit 1
     fi
-fi
-
-# Versiyon numarasını pyproject.toml dosyasından al
-version=$(python -c "import tomli; print(tomli.load(open('pyproject.toml', 'rb'))['project']['version'])")
-if [ -z "$version" ]; then
-    echo "Versiyon numarası alınamadı!"
-    exit 1
 fi
 
 # Versiyon tag'i oluştur ve gönder
