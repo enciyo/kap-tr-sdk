@@ -1,26 +1,44 @@
-rm -rf .publish
-rm -rf dist
-rm -rf *.egg-info
-rm -rf build
-rm -rf .pytest_cache
+#!/bin/bash
 
-python3 -m venv .publish
-source .publish/bin/activate
-pip install setuptools wheel twine build
-python -m build
-python -m twine upload dist/*
-deactivate
-rm -rf .venv
-rm -rf dist
-rm -rf *.egg-info
-rm -rf build
-rm -rf .pytest_cache
-rm -rf .publish
+# Bu betik, Git repository'sinde versiyon kontrolü yapmak ve release oluşturmak için kullanılır.
 
+# 1. Git işlemleri
+echo "Git işlemleri başlatılıyor..."
 git add .
 git commit -m "Publish to PyPI"
+if [ $? -ne 0 ]; then
+    echo "Git commit başarısız oldu!"
+    exit 1
+fi
 git push origin main
+if [ $? -ne 0 ]; then
+    echo "Git push başarısız oldu!"
+    exit 1
+fi
+
+# Versiyon numarasını al
 version=$(python setup.py --version)
+if [ -z "$version" ]; then
+    echo "Versiyon numarası alınamadı!"
+    exit 1
+fi
+
+# Versiyon tag'i oluştur ve gönder
+echo "Versiyon tag'i oluşturuluyor: v$version"
 git tag -a v$version -m "Release version $version"
+if [ $? -ne 0 ]; then
+    echo "Git tag oluşturma başarısız oldu!"
+    exit 1
+fi
 git push origin v$version
+if [ $? -ne 0 ]; then
+    echo "Git tag push başarısız oldu!"
+    exit 1
+fi
 git push --tags
+if [ $? -ne 0 ]; then
+    echo "Git tags push başarısız oldu!"
+    exit 1
+fi
+
+echo "Release oluşturma işlemi başarıyla tamamlandı!"

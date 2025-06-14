@@ -1,0 +1,2386 @@
+{
+    "period_4_konsolide": [
+        {
+            "key": "Nakit ve Nakit Benzerleri",
+            "value": 3606782000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 3381545000.0
+        },
+        {
+            "key": "Ticari Alacaklar",
+            "value": 16125030000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Ticari Alacaklar",
+            "value": 16125030000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 197958000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Alacaklar",
+            "value": 1023000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 196935000.0
+        },
+        {
+            "key": "Stoklar",
+            "value": 27327716000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 2096998000.0
+        },
+        {
+            "key": "Diğer Dönen Varlıklar",
+            "value": 1722929000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Dönen Varlıklar",
+            "value": 470000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Dönen Varlıklar",
+            "value": 1722459000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 54458958000.0
+        },
+        {
+            "key": "TOPLAM DÖNEN VARLIKLAR",
+            "value": 54458958000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 4413585000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 137260000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 137260000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar",
+            "value": 49639441000.0
+        },
+        {
+            "key": "Kullanım Hakkı Varlıkları",
+            "value": 37753739000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlıklar",
+            "value": 182157000.0
+        },
+        {
+            "key": "Şerefiye",
+            "value": 22114000.0
+        },
+        {
+            "key": "Diğer Maddi Olmayan Duran Varlıklar",
+            "value": 160043000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 1477939000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Varlığı",
+            "value": 69652000.0
+        },
+        {
+            "key": "TOPLAM DURAN VARLIKLAR",
+            "value": 93673773000.0
+        },
+        {
+            "key": "TOPLAM VARLIKLAR",
+            "value": 148132731000.0
+        },
+        {
+            "key": "Kısa Vadeli Borçlanmalar",
+            "value": 4658830000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Kısa Vadeli Borçlanmalar",
+            "value": 4658830000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 4658830000.0
+        },
+        {
+            "key": "Ticari Borçlar",
+            "value": 45144521000.0
+        },
+        {
+            "key": "İlişkili Taraflara Ticari Borçlar",
+            "value": 2945307000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Ticari Borçlar",
+            "value": 42199214000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalar Kapsamında Borçlar",
+            "value": 1068735000.0
+        },
+        {
+            "key": "Diğer Borçlar",
+            "value": 868000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Diğer Borçlar",
+            "value": 868000.0
+        },
+        {
+            "key": "Ertelenmiş Gelirler (Müşteri Sözleşmelerinden Doğan Yükümlülüklerin Dışında Kalanlar)",
+            "value": 347391000.0
+        },
+        {
+            "key": "Dönem Karı Vergi Yükümlülüğü",
+            "value": 1400147000.0
+        },
+        {
+            "key": "Kısa Vadeli Karşılıklar",
+            "value": 591314000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar",
+            "value": 243305000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Karşılıklar",
+            "value": 348009000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Yükümlülükler",
+            "value": 862184000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 54073990000.0
+        },
+        {
+            "key": "TOPLAM KISA VADELİ YÜKÜMLÜLÜKLER",
+            "value": 54073990000.0
+        },
+        {
+            "key": "Uzun Vadeli Borçlanmalar",
+            "value": 17679128000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Uzun Vadeli Borçlanmalar",
+            "value": 17679128000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 17679128000.0
+        },
+        {
+            "key": "Uzun Vadeli Karşılıklar",
+            "value": 1199093000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar",
+            "value": 1199093000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Yükümlülüğü",
+            "value": 5438785000.0
+        },
+        {
+            "key": "TOPLAM UZUN VADELİ YÜKÜMLÜLÜKLER",
+            "value": 24317006000.0
+        },
+        {
+            "key": "TOPLAM YÜKÜMLÜLÜKLER",
+            "value": 78390996000.0
+        },
+        {
+            "key": "Ana Ortaklığa Ait Özkaynaklar",
+            "value": 69111983000.0
+        },
+        {
+            "key": "Ödenmiş Sermaye",
+            "value": 607200000.0
+        },
+        {
+            "key": "Sermaye Düzeltme Farkları",
+            "value": 3823414000.0
+        },
+        {
+            "key": "Geri Alınmış Paylar (-)",
+            "value": -2319695000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 11405824000.0
+        },
+        {
+            "key": "Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 11405824000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Yeniden Değerleme Artışları (Azalışları)",
+            "value": 11356219000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -1349785000.0
+        },
+        {
+            "key": "Diğer Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 1399390000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": -1159293000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farkları",
+            "value": -1159293000.0
+        },
+        {
+            "key": "Kardan Ayrılan Kısıtlanmış Yedekler",
+            "value": 7716465000.0
+        },
+        {
+            "key": "Geçmiş Yıllar Karları veya Zararları",
+            "value": 33597335000.0
+        },
+        {
+            "key": "Net Dönem Karı veya Zararı",
+            "value": 15440733000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 629752000.0
+        },
+        {
+            "key": "TOPLAM ÖZKAYNAKLAR",
+            "value": 69741735000.0
+        },
+        {
+            "key": "TOPLAM KAYNAKLAR",
+            "value": 148132731000.0
+        },
+        {
+            "key": "Hasılat",
+            "value": 328441924000.0
+        },
+        {
+            "key": "Satışların Maliyeti",
+            "value": -276759269000.0
+        },
+        {
+            "key": "TİCARİ FAALİYETLERDEN BRÜT KAR (ZARAR)",
+            "value": 51682655000.0
+        },
+        {
+            "key": "BRÜT KAR (ZARAR)",
+            "value": 51682655000.0
+        },
+        {
+            "key": "Genel Yönetim Giderleri",
+            "value": -6109712000.0
+        },
+        {
+            "key": "Pazarlama Giderleri",
+            "value": -42214147000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Gelirler",
+            "value": 1507063000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Giderler",
+            "value": -905780000.0
+        },
+        {
+            "key": "ESAS FAALİYET KARI (ZARARI)",
+            "value": 3960079000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Gelirler",
+            "value": 1157821000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Giderler",
+            "value": -309458000.0
+        },
+        {
+            "key": "FİNANSMAN GELİRİ (GİDERİ) ÖNCESİ FAALİYET KARI (ZARARI)",
+            "value": 4808442000.0
+        },
+        {
+            "key": "Finansman Gelirleri",
+            "value": 394967000.0
+        },
+        {
+            "key": "Finansman Giderleri",
+            "value": -2777179000.0
+        },
+        {
+            "key": "Net Parasal Pozisyon Kazançları (Kayıpları)",
+            "value": 19618382000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)",
+            "value": 22044612000.0
+        },
+        {
+            "key": "Sürdürülen Faaliyetler Vergi (Gideri) Geliri",
+            "value": -6599323000.0
+        },
+        {
+            "key": "Dönem Vergi (Gideri) Geliri",
+            "value": -4121772000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi (Gideri) Geliri",
+            "value": -2477551000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI (ZARARI)",
+            "value": 15445289000.0
+        },
+        {
+            "key": "DÖNEM KARI (ZARARI)",
+            "value": 15445289000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 4556000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 15440733000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacaklar",
+            "value": -140087000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar Yeniden Değerleme Artışları (Azalışları)",
+            "value": -224303000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -520926000.0
+        },
+        {
+            "key": "Diğer Kar veya Zarar Olarak Yeniden Sınıflandırılmayacak Diğer Kapsamlı Gelir Unsurları",
+            "value": 605142000.0
+        },
+        {
+            "key": "Kar veya Zarar Olarak Yeniden Sınıflandırılacaklar",
+            "value": -275870000.0
+        },
+        {
+            "key": "Yurtdışındaki İşletmelerin Çevrimine İlişkin Yabancı Para Çevrim Farkları",
+            "value": -275870000.0
+        },
+        {
+            "key": "DİĞER KAPSAMLI GELİR (GİDER)",
+            "value": -415957000.0
+        },
+        {
+            "key": "TOPLAM KAPSAMLI GELİR (GİDER)",
+            "value": 15029332000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 128050000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 14901282000.0
+        },
+        {
+            "key": "İŞLETME FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": 20030459000.0
+        },
+        {
+            "key": "Dönem Karı (Zararı)",
+            "value": 15445289000.0
+        },
+        {
+            "key": "Dönem Net Karı (Zararı) Mutabakatı İle İlgili Düzeltmeler",
+            "value": 7845170000.0
+        },
+        {
+            "key": "Amortisman ve İtfa Gideri İle İlgili Düzeltmeler",
+            "value": 10392339000.0
+        },
+        {
+            "key": "Değer Düşüklüğü (İptali) İle İlgili Düzeltmeler",
+            "value": 98279000.0
+        },
+        {
+            "key": "Alacaklarda Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": -422000.0
+        },
+        {
+            "key": "Stok Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 699000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 98002000.0
+        },
+        {
+            "key": "Karşılıklar İle İlgili Düzeltmeler",
+            "value": 847626000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar (İptali) ile İlgili Düzeltmeler",
+            "value": 706442000.0
+        },
+        {
+            "key": "Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler",
+            "value": 124714000.0
+        },
+        {
+            "key": "Diğer Karşılıklar (İptalleri) ile İlgili Düzeltmeler",
+            "value": 16470000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan (Gelirler) Giderler ile İlgili Düzeltmeler",
+            "value": 2445362000.0
+        },
+        {
+            "key": "Faiz (Gelirleri) ve Giderleri İle İlgili Düzeltmeler",
+            "value": 3649804000.0
+        },
+        {
+            "key": "Faiz Giderleri ile İlgili Düzeltmeler",
+            "value": 2381851000.0
+        },
+        {
+            "key": "Vadeli Alımlardan Kaynaklanan Ertelenmiş Finansman Gideri",
+            "value": 1267953000.0
+        },
+        {
+            "key": "Gerçekleşmemiş Yabancı Para Çevrim Farkları İle İlgili Düzeltmeler",
+            "value": -208592000.0
+        },
+        {
+            "key": "Vergi (Geliri) Gideri İle İlgili Düzeltmeler",
+            "value": 6599323000.0
+        },
+        {
+            "key": "Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) İle İlgili Düzeltmeler",
+            "value": -311590000.0
+        },
+        {
+            "key": "Maddi Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler",
+            "value": -311590000.0
+        },
+        {
+            "key": "Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler",
+            "value": -15667381000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Değişimler",
+            "value": 1166117000.0
+        },
+        {
+            "key": "Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -4468424000.0
+        },
+        {
+            "key": "Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -55383000.0
+        },
+        {
+            "key": "Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler",
+            "value": -2927838000.0
+        },
+        {
+            "key": "Ticari Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 3103101000.0
+        },
+        {
+            "key": "Faaliyetler ile İlgili Diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": -566000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Diğer Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 5515227000.0
+        },
+        {
+            "key": "Faaliyetlerden Elde Edilen Nakit Akışları",
+            "value": 24456576000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar Kapsamında Yapılan Ödemeler",
+            "value": -1054477000.0
+        },
+        {
+            "key": "Vergi İadeleri (Ödemeleri)",
+            "value": -3371640000.0
+        },
+        {
+            "key": "Diğer Nakit Girişleri (Çıkışları)",
+            "value": 0.0
+        },
+        {
+            "key": "YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI",
+            "value": -11640803000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 749541000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -10514717000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -10453730000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -60987000.0
+        },
+        {
+            "key": "Verilen Nakit Avans ve Borçlar",
+            "value": -719938000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Girişleri",
+            "value": -1155689000.0
+        },
+        {
+            "key": "FİNANSMAN FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": -8225877000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları",
+            "value": -164047000.0
+        },
+        {
+            "key": "Borçlanmadan Kaynaklanan Nakit Girişleri",
+            "value": 0.0
+        },
+        {
+            "key": "Kira Sözleşmelerinden Kaynaklanan Borç Ödemelerine İlişkin Nakit Çıkışları",
+            "value": -4571052000.0
+        },
+        {
+            "key": "Ödenen Temettüler",
+            "value": -3490778000.0
+        },
+        {
+            "key": "YABANCI PARA ÇEVRİM FARKLARININ ETKİSİNDEN ÖNCE NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 163779000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farklarının Nakit ve Nakit Benzerleri Üzerindeki Etkisi",
+            "value": -141413000.0
+        },
+        {
+            "key": "NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 22366000.0
+        },
+        {
+            "key": "DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ",
+            "value": 3584416000.0
+        },
+        {
+            "key": "DÖNEM SONU NAKİT VE NAKİT BENZERLERİ",
+            "value": 3606782000.0
+        }
+    ],
+    "period_3_konsolide": [
+        {
+            "key": "Nakit ve Nakit Benzerleri",
+            "value": 3260750000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 7074503000.0
+        },
+        {
+            "key": "Ticari Alacaklar",
+            "value": 13833280000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Ticari Alacaklar",
+            "value": 13833280000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 352976000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Alacaklar",
+            "value": 1402000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 351574000.0
+        },
+        {
+            "key": "Stoklar",
+            "value": 24024364000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 1606139000.0
+        },
+        {
+            "key": "Diğer Dönen Varlıklar",
+            "value": 1510295000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 51662307000.0
+        },
+        {
+            "key": "TOPLAM DÖNEN VARLIKLAR",
+            "value": 51662307000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 2092540000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 65501000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 65501000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar",
+            "value": 26214028000.0
+        },
+        {
+            "key": "Kullanım Hakkı Varlıkları",
+            "value": 17561298000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlıklar",
+            "value": 105258000.0
+        },
+        {
+            "key": "Şerefiye",
+            "value": 13421000.0
+        },
+        {
+            "key": "Diğer Maddi Olmayan Duran Varlıklar",
+            "value": 91837000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 1061996000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Varlığı",
+            "value": 664772000.0
+        },
+        {
+            "key": "TOPLAM DURAN VARLIKLAR",
+            "value": 47765393000.0
+        },
+        {
+            "key": "TOPLAM VARLIKLAR",
+            "value": 99427700000.0
+        },
+        {
+            "key": "Kısa Vadeli Borçlanmalar",
+            "value": 3905865000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Kısa Vadeli Borçlanmalar",
+            "value": 3905865000.0
+        },
+        {
+            "key": "Banka Kredileri",
+            "value": 0.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 3905865000.0
+        },
+        {
+            "key": "Ticari Borçlar",
+            "value": 43276258000.0
+        },
+        {
+            "key": "İlişkili Taraflara Ticari Borçlar",
+            "value": 2901055000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Ticari Borçlar",
+            "value": 40375203000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalar Kapsamında Borçlar",
+            "value": 1030754000.0
+        },
+        {
+            "key": "Diğer Borçlar",
+            "value": 1640294000.0
+        },
+        {
+            "key": "İlişkili Taraflara Diğer Borçlar",
+            "value": 1639440000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Diğer Borçlar",
+            "value": 854000.0
+        },
+        {
+            "key": "Ertelenmiş Gelirler (Müşteri Sözleşmelerinden Doğan Yükümlülüklerin Dışında Kalanlar)",
+            "value": 319280000.0
+        },
+        {
+            "key": "Dönem Karı Vergi Yükümlülüğü",
+            "value": 1387717000.0
+        },
+        {
+            "key": "Kısa Vadeli Karşılıklar",
+            "value": 512197000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar",
+            "value": 217588000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Karşılıklar",
+            "value": 294609000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Yükümlülükler",
+            "value": 850451000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 52922816000.0
+        },
+        {
+            "key": "TOPLAM KISA VADELİ YÜKÜMLÜLÜKLER",
+            "value": 52922816000.0
+        },
+        {
+            "key": "Uzun Vadeli Borçlanmalar",
+            "value": 15279925000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Uzun Vadeli Borçlanmalar",
+            "value": 15279925000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 15279925000.0
+        },
+        {
+            "key": "Uzun Vadeli Karşılıklar",
+            "value": 1172110000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar",
+            "value": 1172110000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Yükümlülüğü",
+            "value": 9766000.0
+        },
+        {
+            "key": "TOPLAM UZUN VADELİ YÜKÜMLÜLÜKLER",
+            "value": 16461801000.0
+        },
+        {
+            "key": "TOPLAM YÜKÜMLÜLÜKLER",
+            "value": 69384617000.0
+        },
+        {
+            "key": "Ana Ortaklığa Ait Özkaynaklar",
+            "value": 29804484000.0
+        },
+        {
+            "key": "Ödenmiş Sermaye",
+            "value": 607200000.0
+        },
+        {
+            "key": "Geri Alınmış Paylar (-)",
+            "value": -747689000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 13238796000.0
+        },
+        {
+            "key": "Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 13238796000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Yeniden Değerleme Artışları (Azalışları)",
+            "value": 12459118000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -1070579000.0
+        },
+        {
+            "key": "Diğer Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 1850257000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 473612000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farkları",
+            "value": 473612000.0
+        },
+        {
+            "key": "Kardan Ayrılan Kısıtlanmış Yedekler",
+            "value": 2108817000.0
+        },
+        {
+            "key": "Geçmiş Yıllar Karları veya Zararları",
+            "value": 6075076000.0
+        },
+        {
+            "key": "Net Dönem Karı veya Zararı",
+            "value": 8048672000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 238599000.0
+        },
+        {
+            "key": "TOPLAM ÖZKAYNAKLAR",
+            "value": 30043083000.0
+        },
+        {
+            "key": "TOPLAM KAYNAKLAR",
+            "value": 99427700000.0
+        },
+        {
+            "key": "Hasılat",
+            "value": 183618341000.0
+        },
+        {
+            "key": "Satışların Maliyeti",
+            "value": -148133330000.0
+        },
+        {
+            "key": "TİCARİ FAALİYETLERDEN BRÜT KAR (ZARAR)",
+            "value": 35485011000.0
+        },
+        {
+            "key": "BRÜT KAR (ZARAR)",
+            "value": 35485011000.0
+        },
+        {
+            "key": "Genel Yönetim Giderleri",
+            "value": -3170224000.0
+        },
+        {
+            "key": "Pazarlama Giderleri",
+            "value": -21461916000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Gelirler",
+            "value": 807775000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Giderler",
+            "value": -337823000.0
+        },
+        {
+            "key": "ESAS FAALİYET KARI (ZARARI)",
+            "value": 11322823000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Gelirler",
+            "value": 413772000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Giderler",
+            "value": -31027000.0
+        },
+        {
+            "key": "FİNANSMAN GELİRİ (GİDERİ) ÖNCESİ FAALİYET KARI (ZARARI)",
+            "value": 11705568000.0
+        },
+        {
+            "key": "Finansman Gelirleri",
+            "value": 176890000.0
+        },
+        {
+            "key": "Finansman Giderleri",
+            "value": -1554305000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)",
+            "value": 10328153000.0
+        },
+        {
+            "key": "Sürdürülen Faaliyetler Vergi (Gideri) Geliri",
+            "value": -2285145000.0
+        },
+        {
+            "key": "Dönem Vergi (Gideri) Geliri",
+            "value": -2118201000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi (Gideri) Geliri",
+            "value": -166944000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI (ZARARI)",
+            "value": 8043008000.0
+        },
+        {
+            "key": "DÖNEM KARI (ZARARI)",
+            "value": 8043008000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": -5664000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 8048672000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacaklar",
+            "value": -475658000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar Yeniden Değerleme Artışları (Azalışları)",
+            "value": -107559000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -368099000.0
+        },
+        {
+            "key": "Kar veya Zarar Olarak Yeniden Sınıflandırılacaklar",
+            "value": 189447000.0
+        },
+        {
+            "key": "Yurtdışındaki İşletmelerin Çevrimine İlişkin Yabancı Para Çevrim Farkları",
+            "value": 189447000.0
+        },
+        {
+            "key": "DİĞER KAPSAMLI GELİR (GİDER)",
+            "value": -286211000.0
+        },
+        {
+            "key": "TOPLAM KAPSAMLI GELİR (GİDER)",
+            "value": 7756797000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 87361000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 7669436000.0
+        },
+        {
+            "key": "İŞLETME FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": 15532487000.0
+        },
+        {
+            "key": "Dönem Karı (Zararı)",
+            "value": 8043008000.0
+        },
+        {
+            "key": "Dönem Net Karı (Zararı) Mutabakatı İle İlgili Düzeltmeler",
+            "value": 8085659000.0
+        },
+        {
+            "key": "Amortisman ve İtfa Gideri İle İlgili Düzeltmeler",
+            "value": 3249334000.0
+        },
+        {
+            "key": "Değer Düşüklüğü (İptali) İle İlgili Düzeltmeler",
+            "value": 400614000.0
+        },
+        {
+            "key": "Alacaklarda Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": -352000.0
+        },
+        {
+            "key": "Stok Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 341489000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 59477000.0
+        },
+        {
+            "key": "Karşılıklar İle İlgili Düzeltmeler",
+            "value": 635080000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar (İptali) ile İlgili Düzeltmeler",
+            "value": 465992000.0
+        },
+        {
+            "key": "Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler",
+            "value": 141479000.0
+        },
+        {
+            "key": "Diğer Karşılıklar (İptalleri) ile İlgili Düzeltmeler",
+            "value": 27609000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan (Gelirler) Giderler ile İlgili Düzeltmeler",
+            "value": -412515000.0
+        },
+        {
+            "key": "Faiz (Gelirleri) ve Giderleri İle İlgili Düzeltmeler",
+            "value": 2028565000.0
+        },
+        {
+            "key": "Faiz Giderleri ile İlgili Düzeltmeler",
+            "value": 1329403000.0
+        },
+        {
+            "key": "Vadeli Alımlardan Kaynaklanan Ertelenmiş Finansman Gideri",
+            "value": 699162000.0
+        },
+        {
+            "key": "Gerçekleşmemiş Yabancı Para Çevrim Farkları İle İlgili Düzeltmeler",
+            "value": -216914000.0
+        },
+        {
+            "key": "Vergi (Geliri) Gideri İle İlgili Düzeltmeler",
+            "value": 2285145000.0
+        },
+        {
+            "key": "Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) İle İlgili Düzeltmeler",
+            "value": 29770000.0
+        },
+        {
+            "key": "Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler",
+            "value": 86580000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Değişimler",
+            "value": 1227809000.0
+        },
+        {
+            "key": "Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -6758934000.0
+        },
+        {
+            "key": "Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -253089000.0
+        },
+        {
+            "key": "Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler",
+            "value": -9733870000.0
+        },
+        {
+            "key": "Ticari Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 17831848000.0
+        },
+        {
+            "key": "Faaliyetler ile İlgili Diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": -16000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Diğer Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 141870000.0
+        },
+        {
+            "key": "Faaliyetlerden Elde Edilen Nakit Akışları",
+            "value": 17356476000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar Kapsamında Yapılan Ödemeler",
+            "value": -673917000.0
+        },
+        {
+            "key": "Vergi İadeleri (Ödemeleri)",
+            "value": -1150072000.0
+        },
+        {
+            "key": "Diğer Nakit Girişleri (Çıkışları)",
+            "value": 0.0
+        },
+        {
+            "key": "YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI",
+            "value": -10426891000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 123936000.0
+        },
+        {
+            "key": "Maddi Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 123936000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -5301059000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -5274578000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -26481000.0
+        },
+        {
+            "key": "Verilen Nakit Avans ve Borçlar",
+            "value": -600137000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Çıkışları",
+            "value": -4649631000.0
+        },
+        {
+            "key": "FİNANSMAN FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": -3985089000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını Almasından Kaynaklanan Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "Borçlanmadan Kaynaklanan Nakit Girişleri",
+            "value": 0.0
+        },
+        {
+            "key": "Kira Sözleşmelerinden Kaynaklanan Borç Ödemelerine İlişkin Nakit Çıkışları",
+            "value": -2623693000.0
+        },
+        {
+            "key": "Ödenen Temettüler",
+            "value": -1251190000.0
+        },
+        {
+            "key": "YABANCI PARA ÇEVRİM FARKLARININ ETKİSİNDEN ÖNCE NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 1120507000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farklarının Nakit ve Nakit Benzerleri Üzerindeki Etkisi",
+            "value": -35124000.0
+        },
+        {
+            "key": "NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 1085383000.0
+        },
+        {
+            "key": "DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ",
+            "value": 2175367000.0
+        },
+        {
+            "key": "DÖNEM SONU NAKİT VE NAKİT BENZERLERİ",
+            "value": 3260750000.0
+        }
+    ],
+    "period_2_konsolide": [
+        {
+            "key": "Nakit ve Nakit Benzerleri",
+            "value": 3981304000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 2568571000.0
+        },
+        {
+            "key": "Ticari Alacaklar",
+            "value": 9858560000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Ticari Alacaklar",
+            "value": 9858560000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 550378000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Alacaklar",
+            "value": 1707000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 548671000.0
+        },
+        {
+            "key": "Stoklar",
+            "value": 18787457000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 1980045000.0
+        },
+        {
+            "key": "Diğer Dönen Varlıklar",
+            "value": 1622209000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 39348524000.0
+        },
+        {
+            "key": "TOPLAM DÖNEN VARLIKLAR",
+            "value": 39348524000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 2092540000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 62630000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 62630000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar",
+            "value": 24933470000.0
+        },
+        {
+            "key": "Kullanım Hakkı Varlıkları",
+            "value": 15618071000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlıklar",
+            "value": 98600000.0
+        },
+        {
+            "key": "Şerefiye",
+            "value": 13421000.0
+        },
+        {
+            "key": "Diğer Maddi Olmayan Duran Varlıklar",
+            "value": 85179000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 765036000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Varlığı",
+            "value": 730255000.0
+        },
+        {
+            "key": "TOPLAM DURAN VARLIKLAR",
+            "value": 44300602000.0
+        },
+        {
+            "key": "TOPLAM VARLIKLAR",
+            "value": 83649126000.0
+        },
+        {
+            "key": "Kısa Vadeli Borçlanmalar",
+            "value": 3262986000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Kısa Vadeli Borçlanmalar",
+            "value": 3262986000.0
+        },
+        {
+            "key": "Banka Kredileri",
+            "value": 0.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 3262986000.0
+        },
+        {
+            "key": "Ticari Borçlar",
+            "value": 34434724000.0
+        },
+        {
+            "key": "İlişkili Taraflara Ticari Borçlar",
+            "value": 2398869000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Ticari Borçlar",
+            "value": 32035855000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalar Kapsamında Borçlar",
+            "value": 829175000.0
+        },
+        {
+            "key": "Diğer Borçlar",
+            "value": 1949281000.0
+        },
+        {
+            "key": "İlişkili Taraflara Diğer Borçlar",
+            "value": 1948531000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Diğer Borçlar",
+            "value": 750000.0
+        },
+        {
+            "key": "Ertelenmiş Gelirler (Müşteri Sözleşmelerinden Doğan Yükümlülüklerin Dışında Kalanlar)",
+            "value": 383826000.0
+        },
+        {
+            "key": "Dönem Karı Vergi Yükümlülüğü",
+            "value": 499311000.0
+        },
+        {
+            "key": "Kısa Vadeli Karşılıklar",
+            "value": 393501000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar",
+            "value": 226995000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Karşılıklar",
+            "value": 166506000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Yükümlülükler",
+            "value": 687961000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 42440765000.0
+        },
+        {
+            "key": "TOPLAM KISA VADELİ YÜKÜMLÜLÜKLER",
+            "value": 42440765000.0
+        },
+        {
+            "key": "Uzun Vadeli Borçlanmalar",
+            "value": 13827970000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Uzun Vadeli Borçlanmalar",
+            "value": 13827970000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 13827970000.0
+        },
+        {
+            "key": "Uzun Vadeli Karşılıklar",
+            "value": 1220035000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar",
+            "value": 1220035000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Yükümlülüğü",
+            "value": 9135000.0
+        },
+        {
+            "key": "TOPLAM UZUN VADELİ YÜKÜMLÜLÜKLER",
+            "value": 15057140000.0
+        },
+        {
+            "key": "TOPLAM YÜKÜMLÜLÜKLER",
+            "value": 57497905000.0
+        },
+        {
+            "key": "Ana Ortaklığa Ait Özkaynaklar",
+            "value": 25929677000.0
+        },
+        {
+            "key": "Ödenmiş Sermaye",
+            "value": 607200000.0
+        },
+        {
+            "key": "Geri Alınmış Paylar (-)",
+            "value": -747689000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 13211970000.0
+        },
+        {
+            "key": "Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 13211970000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Yeniden Değerleme Artışları (Azalışları)",
+            "value": 12456813000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -1095100000.0
+        },
+        {
+            "key": "Diğer Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 1850257000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 475006000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farkları",
+            "value": 475006000.0
+        },
+        {
+            "key": "Kardan Ayrılan Kısıtlanmış Yedekler",
+            "value": 2108817000.0
+        },
+        {
+            "key": "Geçmiş Yıllar Karları veya Zararları",
+            "value": 6075076000.0
+        },
+        {
+            "key": "Net Dönem Karı veya Zararı",
+            "value": 4199297000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 221544000.0
+        },
+        {
+            "key": "TOPLAM ÖZKAYNAKLAR",
+            "value": 26151221000.0
+        },
+        {
+            "key": "TOPLAM KAYNAKLAR",
+            "value": 83649126000.0
+        },
+        {
+            "key": "Hasılat",
+            "value": 109212659000.0
+        },
+        {
+            "key": "Satışların Maliyeti",
+            "value": -89298345000.0
+        },
+        {
+            "key": "TİCARİ FAALİYETLERDEN BRÜT KAR (ZARAR)",
+            "value": 19914314000.0
+        },
+        {
+            "key": "BRÜT KAR (ZARAR)",
+            "value": 19914314000.0
+        },
+        {
+            "key": "Genel Yönetim Giderleri",
+            "value": -1985950000.0
+        },
+        {
+            "key": "Pazarlama Giderleri",
+            "value": -12498870000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Gelirler",
+            "value": 556548000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Giderler",
+            "value": -153823000.0
+        },
+        {
+            "key": "ESAS FAALİYET KARI (ZARARI)",
+            "value": 5832219000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Gelirler",
+            "value": 151346000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Giderler",
+            "value": -47120000.0
+        },
+        {
+            "key": "FİNANSMAN GELİRİ (GİDERİ) ÖNCESİ FAALİYET KARI (ZARARI)",
+            "value": 5936445000.0
+        },
+        {
+            "key": "Finansman Gelirleri",
+            "value": 141726000.0
+        },
+        {
+            "key": "Finansman Giderleri",
+            "value": -996153000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)",
+            "value": 5082018000.0
+        },
+        {
+            "key": "Sürdürülen Faaliyetler Vergi (Gideri) Geliri",
+            "value": -895943000.0
+        },
+        {
+            "key": "Dönem Vergi (Gideri) Geliri",
+            "value": -822149000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi (Gideri) Geliri",
+            "value": -73794000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI (ZARARI)",
+            "value": 4186075000.0
+        },
+        {
+            "key": "DÖNEM KARI (ZARARI)",
+            "value": 4186075000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": -13222000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 4199297000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacaklar",
+            "value": -502484000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar Yeniden Değerleme Artışları (Azalışları)",
+            "value": -109864000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -392620000.0
+        },
+        {
+            "key": "Kar veya Zarar Olarak Yeniden Sınıflandırılacaklar",
+            "value": 181344000.0
+        },
+        {
+            "key": "Yurtdışındaki İşletmelerin Çevrimine İlişkin Yabancı Para Çevrim Farkları",
+            "value": 181344000.0
+        },
+        {
+            "key": "DİĞER KAPSAMLI GELİR (GİDER)",
+            "value": -321140000.0
+        },
+        {
+            "key": "TOPLAM KAPSAMLI GELİR (GİDER)",
+            "value": 3864935000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 70306000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 3794629000.0
+        },
+        {
+            "key": "İŞLETME FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": 8882745000.0
+        },
+        {
+            "key": "Dönem Karı (Zararı)",
+            "value": 4186075000.0
+        },
+        {
+            "key": "Dönem Net Karı (Zararı) Mutabakatı İle İlgili Düzeltmeler",
+            "value": 5119500000.0
+        },
+        {
+            "key": "Amortisman ve İtfa Gideri İle İlgili Düzeltmeler",
+            "value": 2001122000.0
+        },
+        {
+            "key": "Değer Düşüklüğü (İptali) İle İlgili Düzeltmeler",
+            "value": 374704000.0
+        },
+        {
+            "key": "Alacaklarda Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": -34000.0
+        },
+        {
+            "key": "Stok Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 315261000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 59477000.0
+        },
+        {
+            "key": "Karşılıklar İle İlgili Düzeltmeler",
+            "value": 425513000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar (İptali) ile İlgili Düzeltmeler",
+            "value": 384528000.0
+        },
+        {
+            "key": "Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler",
+            "value": 25753000.0
+        },
+        {
+            "key": "Diğer Karşılıklar (İptalleri) ile İlgili Düzeltmeler",
+            "value": 15232000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan (Gelirler) Giderler ile İlgili Düzeltmeler",
+            "value": -151346000.0
+        },
+        {
+            "key": "Faiz (Gelirleri) ve Giderleri İle İlgili Düzeltmeler",
+            "value": 1614164000.0
+        },
+        {
+            "key": "Faiz Giderleri ile İlgili Düzeltmeler",
+            "value": 816044000.0
+        },
+        {
+            "key": "Vadeli Alımlardan Kaynaklanan Ertelenmiş Finansman Gideri",
+            "value": 798120000.0
+        },
+        {
+            "key": "Gerçekleşmemiş Yabancı Para Çevrim Farkları İle İlgili Düzeltmeler",
+            "value": -187889000.0
+        },
+        {
+            "key": "Vergi (Geliri) Gideri İle İlgili Düzeltmeler",
+            "value": 895943000.0
+        },
+        {
+            "key": "Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) İle İlgili Düzeltmeler",
+            "value": 47120000.0
+        },
+        {
+            "key": "Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler",
+            "value": 100169000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Değişimler",
+            "value": 768472000.0
+        },
+        {
+            "key": "Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -2784214000.0
+        },
+        {
+            "key": "Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -447938000.0
+        },
+        {
+            "key": "Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler",
+            "value": -4470735000.0
+        },
+        {
+            "key": "Ticari Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 8891356000.0
+        },
+        {
+            "key": "Faaliyetler ile İlgili Diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": -120000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Diğer Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": -419877000.0
+        },
+        {
+            "key": "Faaliyetlerden Elde Edilen Nakit Akışları",
+            "value": 10074047000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar Kapsamında Yapılan Ödemeler",
+            "value": -535121000.0
+        },
+        {
+            "key": "Vergi İadeleri (Ödemeleri)",
+            "value": -656181000.0
+        },
+        {
+            "key": "Diğer Nakit Girişleri (Çıkışları)",
+            "value": 0.0
+        },
+        {
+            "key": "YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI",
+            "value": -4040286000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 28292000.0
+        },
+        {
+            "key": "Maddi Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 28292000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -3350041000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -3330503000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -19538000.0
+        },
+        {
+            "key": "Verilen Nakit Avans ve Borçlar",
+            "value": -313669000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Çıkışları",
+            "value": -404868000.0
+        },
+        {
+            "key": "FİNANSMAN FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": -2976008000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını Almasından Kaynaklanan Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "Borçlanmadan Kaynaklanan Nakit Girişleri",
+            "value": 0.0
+        },
+        {
+            "key": "Kira Sözleşmelerinden Kaynaklanan Borç Ödemelerine İlişkin Nakit Çıkışları",
+            "value": -1614612000.0
+        },
+        {
+            "key": "Ödenen Temettüler",
+            "value": -1251190000.0
+        },
+        {
+            "key": "YABANCI PARA ÇEVRİM FARKLARININ ETKİSİNDEN ÖNCE NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 1866451000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farklarının Nakit ve Nakit Benzerleri Üzerindeki Etkisi",
+            "value": -60514000.0
+        },
+        {
+            "key": "NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": 1805937000.0
+        },
+        {
+            "key": "DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ",
+            "value": 2175367000.0
+        },
+        {
+            "key": "DÖNEM SONU NAKİT VE NAKİT BENZERLERİ",
+            "value": 3981304000.0
+        }
+    ],
+    "period_1_konsolide": [
+        {
+            "key": "Nakit ve Nakit Benzerleri",
+            "value": 1715237000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 2315757000.0
+        },
+        {
+            "key": "Ticari Alacaklar",
+            "value": 9012603000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Ticari Alacaklar",
+            "value": 9012603000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 162395000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Alacaklar",
+            "value": 2147000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 160248000.0
+        },
+        {
+            "key": "Stoklar",
+            "value": 19506909000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 1841598000.0
+        },
+        {
+            "key": "Diğer Dönen Varlıklar",
+            "value": 1424013000.0
+        },
+        {
+            "key": "İlişkili Taraflardan Diğer Dönen Varlıklar",
+            "value": 4248000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Dönen Varlıklar",
+            "value": 1419765000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 35978512000.0
+        },
+        {
+            "key": "TOPLAM DÖNEN VARLIKLAR",
+            "value": 35978512000.0
+        },
+        {
+            "key": "Finansal Yatırımlar",
+            "value": 2092540000.0
+        },
+        {
+            "key": "Diğer Alacaklar",
+            "value": 53838000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Diğer Alacaklar",
+            "value": 53838000.0
+        },
+        {
+            "key": "Maddi Duran Varlıklar",
+            "value": 23513379000.0
+        },
+        {
+            "key": "Kullanım Hakkı Varlıkları",
+            "value": 13013691000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlıklar",
+            "value": 63902000.0
+        },
+        {
+            "key": "Şerefiye",
+            "value": 13421000.0
+        },
+        {
+            "key": "Diğer Maddi Olmayan Duran Varlıklar",
+            "value": 50481000.0
+        },
+        {
+            "key": "Peşin Ödenmiş Giderler",
+            "value": 571350000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Varlığı",
+            "value": 743010000.0
+        },
+        {
+            "key": "TOPLAM DURAN VARLIKLAR",
+            "value": 40051710000.0
+        },
+        {
+            "key": "TOPLAM VARLIKLAR",
+            "value": 76030222000.0
+        },
+        {
+            "key": "Kısa Vadeli Borçlanmalar",
+            "value": 3222289000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Kısa Vadeli Borçlanmalar",
+            "value": 3222289000.0
+        },
+        {
+            "key": "Banka Kredileri",
+            "value": 254049000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 2968240000.0
+        },
+        {
+            "key": "Ticari Borçlar",
+            "value": 31339198000.0
+        },
+        {
+            "key": "İlişkili Taraflara Ticari Borçlar",
+            "value": 2327990000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Ticari Borçlar",
+            "value": 29011208000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalar Kapsamında Borçlar",
+            "value": 424744000.0
+        },
+        {
+            "key": "Diğer Borçlar",
+            "value": 910000.0
+        },
+        {
+            "key": "İlişkili Taraflara Diğer Borçlar",
+            "value": 0.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflara Diğer Borçlar",
+            "value": 910000.0
+        },
+        {
+            "key": "Ertelenmiş Gelirler (Müşteri Sözleşmelerinden Doğan Yükümlülüklerin Dışında Kalanlar)",
+            "value": 875094000.0
+        },
+        {
+            "key": "Dönem Karı Vergi Yükümlülüğü",
+            "value": 603708000.0
+        },
+        {
+            "key": "Kısa Vadeli Karşılıklar",
+            "value": 312316000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar",
+            "value": 163722000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Karşılıklar",
+            "value": 148594000.0
+        },
+        {
+            "key": "Diğer Kısa Vadeli Yükümlülükler",
+            "value": 416697000.0
+        },
+        {
+            "key": "ARA TOPLAM",
+            "value": 37194956000.0
+        },
+        {
+            "key": "TOPLAM KISA VADELİ YÜKÜMLÜLÜKLER",
+            "value": 37194956000.0
+        },
+        {
+            "key": "Uzun Vadeli Borçlanmalar",
+            "value": 11323804000.0
+        },
+        {
+            "key": "İlişkili Olmayan Taraflardan Uzun Vadeli Borçlanmalar",
+            "value": 11323804000.0
+        },
+        {
+            "key": "Kiralama İşlemlerinden Borçlar",
+            "value": 11323804000.0
+        },
+        {
+            "key": "Uzun Vadeli Karşılıklar",
+            "value": 1172223000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar",
+            "value": 1172223000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi Yükümlülüğü",
+            "value": 9260000.0
+        },
+        {
+            "key": "TOPLAM UZUN VADELİ YÜKÜMLÜLÜKLER",
+            "value": 12505287000.0
+        },
+        {
+            "key": "TOPLAM YÜKÜMLÜLÜKLER",
+            "value": 49700243000.0
+        },
+        {
+            "key": "Ana Ortaklığa Ait Özkaynaklar",
+            "value": 26118711000.0
+        },
+        {
+            "key": "Ödenmiş Sermaye",
+            "value": 607200000.0
+        },
+        {
+            "key": "Geri Alınmış Paylar (-)",
+            "value": -747689000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 13321834000.0
+        },
+        {
+            "key": "Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 13321834000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Yeniden Değerleme Artışları (Azalışları)",
+            "value": 12566677000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -1095100000.0
+        },
+        {
+            "key": "Diğer Yeniden Değerleme ve Ölçüm Kazançları (Kayıpları)",
+            "value": 1850257000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler (Giderler)",
+            "value": 443634000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farkları",
+            "value": 443634000.0
+        },
+        {
+            "key": "Kardan Ayrılan Kısıtlanmış Yedekler",
+            "value": 1808252000.0
+        },
+        {
+            "key": "Geçmiş Yıllar Karları veya Zararları",
+            "value": 9331362000.0
+        },
+        {
+            "key": "Net Dönem Karı veya Zararı",
+            "value": 1354118000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 211268000.0
+        },
+        {
+            "key": "TOPLAM ÖZKAYNAKLAR",
+            "value": 26329979000.0
+        },
+        {
+            "key": "TOPLAM KAYNAKLAR",
+            "value": 76030222000.0
+        },
+        {
+            "key": "Hasılat",
+            "value": 51334587000.0
+        },
+        {
+            "key": "Satışların Maliyeti",
+            "value": -42114567000.0
+        },
+        {
+            "key": "TİCARİ FAALİYETLERDEN BRÜT KAR (ZARAR)",
+            "value": 9220020000.0
+        },
+        {
+            "key": "BRÜT KAR (ZARAR)",
+            "value": 9220020000.0
+        },
+        {
+            "key": "Genel Yönetim Giderleri",
+            "value": -917749000.0
+        },
+        {
+            "key": "Pazarlama Giderleri",
+            "value": -6112231000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Gelirler",
+            "value": 92204000.0
+        },
+        {
+            "key": "Esas Faaliyetlerden Diğer Giderler",
+            "value": -118059000.0
+        },
+        {
+            "key": "ESAS FAALİYET KARI (ZARARI)",
+            "value": 2164185000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Gelirler",
+            "value": 66788000.0
+        },
+        {
+            "key": "Yatırım Faaliyetlerinden Giderler",
+            "value": -19495000.0
+        },
+        {
+            "key": "FİNANSMAN GELİRİ (GİDERİ) ÖNCESİ FAALİYET KARI (ZARARI)",
+            "value": 2211478000.0
+        },
+        {
+            "key": "Finansman Gelirleri",
+            "value": 19462000.0
+        },
+        {
+            "key": "Finansman Giderleri",
+            "value": -492782000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI (ZARARI)",
+            "value": 1738158000.0
+        },
+        {
+            "key": "Sürdürülen Faaliyetler Vergi (Gideri) Geliri",
+            "value": -390925000.0
+        },
+        {
+            "key": "Dönem Vergi (Gideri) Geliri",
+            "value": -351887000.0
+        },
+        {
+            "key": "Ertelenmiş Vergi (Gideri) Geliri",
+            "value": -39038000.0
+        },
+        {
+            "key": "SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI (ZARARI)",
+            "value": 1347233000.0
+        },
+        {
+            "key": "DÖNEM KARI (ZARARI)",
+            "value": 1347233000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": -6885000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 1354118000.0
+        },
+        {
+            "key": "Kar veya Zararda Yeniden Sınıflandırılmayacaklar",
+            "value": -392620000.0
+        },
+        {
+            "key": "Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları (Kayıpları)",
+            "value": -392620000.0
+        },
+        {
+            "key": "Kar veya Zarar Olarak Yeniden Sınıflandırılacaklar",
+            "value": 76169000.0
+        },
+        {
+            "key": "Yurtdışındaki İşletmelerin Çevrimine İlişkin Yabancı Para Çevrim Farkları",
+            "value": 76169000.0
+        },
+        {
+            "key": "DİĞER KAPSAMLI GELİR (GİDER)",
+            "value": -316451000.0
+        },
+        {
+            "key": "TOPLAM KAPSAMLI GELİR (GİDER)",
+            "value": 1030782000.0
+        },
+        {
+            "key": "Kontrol Gücü Olmayan Paylar",
+            "value": 2840000.0
+        },
+        {
+            "key": "Ana Ortaklık Payları",
+            "value": 1027942000.0
+        },
+        {
+            "key": "İŞLETME FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": 1969780000.0
+        },
+        {
+            "key": "Dönem Karı (Zararı)",
+            "value": 1347233000.0
+        },
+        {
+            "key": "Dönem Net Karı (Zararı) Mutabakatı İle İlgili Düzeltmeler",
+            "value": 3156578000.0
+        },
+        {
+            "key": "Amortisman ve İtfa Gideri İle İlgili Düzeltmeler",
+            "value": 948134000.0
+        },
+        {
+            "key": "Değer Düşüklüğü (İptali) İle İlgili Düzeltmeler",
+            "value": 310512000.0
+        },
+        {
+            "key": "Alacaklarda Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 7000.0
+        },
+        {
+            "key": "Stok Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler",
+            "value": 310505000.0
+        },
+        {
+            "key": "Karşılıklar İle İlgili Düzeltmeler",
+            "value": 253458000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar (İptali) ile İlgili Düzeltmeler",
+            "value": 230385000.0
+        },
+        {
+            "key": "Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler",
+            "value": 16616000.0
+        },
+        {
+            "key": "Diğer Karşılıklar (İptalleri) ile İlgili Düzeltmeler",
+            "value": 6457000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan (Gelirler) Giderler ile İlgili Düzeltmeler",
+            "value": -66788000.0
+        },
+        {
+            "key": "Faiz (Gelirleri) ve Giderleri İle İlgili Düzeltmeler",
+            "value": 1253913000.0
+        },
+        {
+            "key": "Faiz Giderleri ile İlgili Düzeltmeler",
+            "value": 378928000.0
+        },
+        {
+            "key": "Vadeli Alımlardan Kaynaklanan Ertelenmiş Finansman Gideri",
+            "value": 874985000.0
+        },
+        {
+            "key": "Gerçekleşmemiş Yabancı Para Çevrim Farkları İle İlgili Düzeltmeler",
+            "value": 60695000.0
+        },
+        {
+            "key": "Vergi (Geliri) Gideri İle İlgili Düzeltmeler",
+            "value": 390925000.0
+        },
+        {
+            "key": "Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) İle İlgili Düzeltmeler",
+            "value": 19495000.0
+        },
+        {
+            "key": "Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler",
+            "value": -13766000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Değişimler",
+            "value": -1679340000.0
+        },
+        {
+            "key": "Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -1938257000.0
+        },
+        {
+            "key": "Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler",
+            "value": -51204000.0
+        },
+        {
+            "key": "Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler",
+            "value": -5185431000.0
+        },
+        {
+            "key": "Ticari Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 5718965000.0
+        },
+        {
+            "key": "Faaliyetler ile İlgili Diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": 40000.0
+        },
+        {
+            "key": "İşletme Sermayesinde Gerçekleşen Diğer Artış (Azalış) ile İlgili Düzeltmeler",
+            "value": -223453000.0
+        },
+        {
+            "key": "Faaliyetlerden Elde Edilen Nakit Akışları",
+            "value": 2824471000.0
+        },
+        {
+            "key": "Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar Kapsamında Yapılan Ödemeler",
+            "value": -492063000.0
+        },
+        {
+            "key": "Vergi İadeleri (Ödemeleri)",
+            "value": -362628000.0
+        },
+        {
+            "key": "Diğer Nakit Girişleri (Çıkışları)",
+            "value": 0.0
+        },
+        {
+            "key": "YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI",
+            "value": -1847735000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 27205000.0
+        },
+        {
+            "key": "Maddi Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri",
+            "value": 27205000.0
+        },
+        {
+            "key": "Maddi ve Maddi Olmayan Duran Varlıkların Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -1513457000.0
+        },
+        {
+            "key": "Maddi Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -1510712000.0
+        },
+        {
+            "key": "Maddi Olmayan Duran Varlık Alımından Kaynaklanan Nakit Çıkışları",
+            "value": -2745000.0
+        },
+        {
+            "key": "Verilen Nakit Avans ve Borçlar",
+            "value": -124871000.0
+        },
+        {
+            "key": "Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Girişleri",
+            "value": -236612000.0
+        },
+        {
+            "key": "FİNANSMAN FAALİYETLERİNDEN NAKİT AKIŞLARI",
+            "value": -611813000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "İşletmenin Kendi Paylarını Almasından Kaynaklanan Nakit Çıkışları",
+            "value": -110206000.0
+        },
+        {
+            "key": "Borçlanmadan Kaynaklanan Nakit Girişleri",
+            "value": 254049000.0
+        },
+        {
+            "key": "Kira Sözleşmelerinden Kaynaklanan Borç Ödemelerine İlişkin Nakit Çıkışları",
+            "value": -755656000.0
+        },
+        {
+            "key": "Ödenen Temettüler",
+            "value": 0.0
+        },
+        {
+            "key": "YABANCI PARA ÇEVRİM FARKLARININ ETKİSİNDEN ÖNCE NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": -489768000.0
+        },
+        {
+            "key": "Yabancı Para Çevrim Farklarının Nakit ve Nakit Benzerleri Üzerindeki Etkisi",
+            "value": -874000.0
+        },
+        {
+            "key": "NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)",
+            "value": -490642000.0
+        },
+        {
+            "key": "DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ",
+            "value": 2175367000.0
+        },
+        {
+            "key": "DÖNEM SONU NAKİT VE NAKİT BENZERLERİ",
+            "value": 1684725000.0
+        }
+    ]
+}

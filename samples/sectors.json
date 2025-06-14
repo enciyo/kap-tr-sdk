@@ -1,0 +1,1599 @@
+[
+    {
+        "name": "DİĞER",
+        "companies": [],
+        "sub_sectors": [
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            }
+        ]
+    },
+    {
+        "name": "TARIM, ORMANCILIK VE BALIKÇILIK",
+        "companies": [
+            "AGROT",
+            "IZINV",
+            "KNFRT",
+            "OZSUB",
+            "YAPRK"
+        ],
+        "sub_sectors": [
+            {
+                "name": "TARIM VE HAYVANCILIK AVCILIK VE İLGİLİ HİZMET FAALİYETLERİ",
+                "companies": [
+                    "AGROT",
+                    "IZINV",
+                    "KNFRT",
+                    "YAPRK"
+                ]
+            },
+            {
+                "name": "ORMANCILIK VE TOMRUKÇULUK",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "BALIKÇILIK VE SU ÜRÜNLERİ",
+                "companies": [
+                    "OZSUB"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MADENCİLİK VE TAŞ OCAKÇILIĞI",
+        "companies": [
+            "CVKMD",
+            "IPEKE",
+            "KOZAL",
+            "KOZAA",
+            "PRKME",
+            "RUZYE",
+            "VSNMD"
+        ],
+        "sub_sectors": [
+            {
+                "name": "KÖMÜR VE LİNYİT MADENCİLİĞİ",
+                "companies": [
+                    "PRKME",
+                    "RUZYE"
+                ]
+            },
+            {
+                "name": "HAM PETROL VE DOĞAL GAZ ÇIKARTILMASI",
+                "companies": [
+                    "IPEKE"
+                ]
+            },
+            {
+                "name": "METAL CEVHERİ MADENCİLİĞİ",
+                "companies": [
+                    "CVKMD",
+                    "KOZAL",
+                    "KOZAA"
+                ]
+            },
+            {
+                "name": "DİĞER MADENCİLİK VE TAŞ OCAKÇILIĞI",
+                "companies": [
+                    "VSNMD"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "İMALAT",
+        "companies": [
+            "AVOD",
+            "ACSEL",
+            "ADEL",
+            "AFYON",
+            "AKCNS",
+            "ATEKS",
+            "AKSA",
+            "ALCAR",
+            "ALKIM",
+            "ALKA",
+            "ALKLC",
+            "ALVES",
+            "AEFES",
+            "ASUZU",
+            "ANGEN",
+            "ARCLK",
+            "ARMGD",
+            "ARSAN",
+            "ARTMS",
+            "ASTOR",
+            "ATAKP",
+            "AYES",
+            "AYGAZ",
+            "BAGFS",
+            "BAHKM",
+            "BAKAB",
+            "BALAT",
+            "BALSU",
+            "BNTAS",
+            "BANVT",
+            "BARMA",
+            "BASCM",
+            "BTCIM",
+            "BSOKE",
+            "BAYRK",
+            "BRKSN",
+            "BESLR",
+            "BIENY",
+            "BLCYT",
+            "BRKO",
+            "BRMEN",
+            "BMSTL",
+            "BMSCH",
+            "BOBET",
+            "BORSK",
+            "BRSAN",
+            "BFREN",
+            "BOSSA",
+            "BRISA",
+            "BURCE",
+            "BURVA",
+            "BUCIM",
+            "BVSAN",
+            "CEMZY",
+            "CCOLA",
+            "CGCAM",
+            "CELHA",
+            "CEMAS",
+            "CEMTS",
+            "CMBTN",
+            "CMENT",
+            "CIMSA",
+            "CUSAN",
+            "DAGI",
+            "DARDL",
+            "DMSAS",
+            "DERIM",
+            "DESA",
+            "DEVA",
+            "DNISI",
+            "DIRIT",
+            "DITAS",
+            "DMRGD",
+            "DOFER",
+            "DGNMO",
+            "DOGUB",
+            "DOKTA",
+            "DURDO",
+            "DURKN",
+            "DYOBY",
+            "EFORC",
+            "EGEEN",
+            "EGGUB",
+            "EPLAS",
+            "EGPRO",
+            "EGSER",
+            "EKIZ",
+            "EKOS",
+            "EKSUN",
+            "ELITE",
+            "EMKEL",
+            "EMNIS",
+            "ENSRI",
+            "ERBOS",
+            "ERCB",
+            "EREGL",
+            "ERSU",
+            "TEZOL",
+            "EUREN",
+            "EUPWR",
+            "FADE",
+            "FMIZP",
+            "FROTO",
+            "FORMT",
+            "FRIGO",
+            "GEDZA",
+            "GENTS",
+            "GEREL",
+            "GIPTA",
+            "GOODY",
+            "GOKNR",
+            "GOLTS",
+            "GUBRF",
+            "GUNDG",
+            "HATEK",
+            "HATSN",
+            "HEKTS",
+            "HKTM",
+            "ISKPL",
+            "IHEVA",
+            "IMASM",
+            "ISDMR",
+            "ISSEN",
+            "IZMDC",
+            "IZFAS",
+            "JANTS",
+            "KLKIM",
+            "KLSER",
+            "KAPLM",
+            "KRDMA, KRDMB, KRDMD",
+            "KARSN",
+            "KRTEK",
+            "KARTN",
+            "KATMR",
+            "KAYSE",
+            "KENT",
+            "KRVGD",
+            "TCKRC",
+            "KMPUR",
+            "KLMSN",
+            "KCAER",
+            "KOCMT",
+            "KLSYN",
+            "KONYA",
+            "KONKA",
+            "KORDS",
+            "KRPLS",
+            "KOPOL",
+            "KRSTL",
+            "KBORU",
+            "KUTPO",
+            "KTSKR",
+            "LILAK",
+            "LMKDC",
+            "LUKSK",
+            "MAKIM",
+            "MAKTK",
+            "MRSHL",
+            "MEDTR",
+            "MEGMT",
+            "MEGAP",
+            "MEKAG",
+            "MNDRS",
+            "MERCN",
+            "MERKO",
+            "MNDTR",
+            "NIBAS",
+            "NUHCM",
+            "OBAMS",
+            "OFSYM",
+            "ONCSM",
+            "ORCAY",
+            "ORMA",
+            "OTKAR",
+            "OYAKC",
+            "OYLUM",
+            "OZATD",
+            "OZRDN",
+            "OZYSR",
+            "PNLSN",
+            "PARSN",
+            "PENGD",
+            "PETKM",
+            "PETUN",
+            "PINSU",
+            "PNSUT",
+            "POLTK",
+            "PRZMA",
+            "QUAGR",
+            "RNPOL",
+            "RODRG",
+            "ROYAL",
+            "RTALB",
+            "RUBNS",
+            "SAFKR",
+            "SNICA",
+            "SANFM",
+            "SAMAT",
+            "SARKY",
+            "SASA",
+            "SAYAS",
+            "SEGMN",
+            "SEKUR",
+            "SELGD",
+            "SELVA",
+            "SERNT",
+            "SEYKM",
+            "SILVR",
+            "SODSN",
+            "SOKE",
+            "SKTAS",
+            "SNPAM",
+            "SUMAS",
+            "SUNTK",
+            "TARKM",
+            "TATGD",
+            "TMPOL",
+            "TOASO",
+            "TUCLK",
+            "TUKAS",
+            "MARBL",
+            "TRILC",
+            "TMSN",
+            "TUPRS",
+            "PRKAB",
+            "TTRAK",
+            "TBORG",
+            "ULUSE",
+            "ULUUN",
+            "USAK",
+            "ULKER",
+            "VANGD",
+            "VESBE",
+            "VESTL",
+            "VKING",
+            "YATAS",
+            "YYLGD",
+            "YBTAS",
+            "YIGIT",
+            "YONGA",
+            "YKSLN",
+            "YUNSA"
+        ],
+        "sub_sectors": [
+            {
+                "name": "GIDA, İÇECEK VE TÜTÜN",
+                "companies": [
+                    "AVOD",
+                    "ALKLC",
+                    "AEFES",
+                    "ARMGD",
+                    "ATAKP",
+                    "BALSU",
+                    "BANVT",
+                    "BESLR",
+                    "BORSK",
+                    "CEMZY",
+                    "CCOLA",
+                    "DARDL",
+                    "DMRGD",
+                    "DURKN",
+                    "EFORC",
+                    "EKIZ",
+                    "EKSUN",
+                    "ELITE",
+                    "ERSU",
+                    "FADE",
+                    "FRIGO",
+                    "GOKNR",
+                    "GUNDG",
+                    "KAYSE",
+                    "KENT",
+                    "KRVGD",
+                    "KRSTL",
+                    "KTSKR",
+                    "MERKO",
+                    "OBAMS",
+                    "OFSYM",
+                    "ORCAY",
+                    "OYLUM",
+                    "PENGD",
+                    "PETUN",
+                    "PINSU",
+                    "PNSUT",
+                    "SEGMN",
+                    "SELGD",
+                    "SELVA",
+                    "SOKE",
+                    "TATGD",
+                    "TUKAS",
+                    "TBORG",
+                    "ULUUN",
+                    "ULKER",
+                    "VANGD",
+                    "YYLGD"
+                ]
+            },
+            {
+                "name": "TEKSTİL, GİYİM EŞYASI VE DERİ",
+                "companies": [
+                    "ATEKS",
+                    "ARSAN",
+                    "ARTMS",
+                    "BLCYT",
+                    "BRKO",
+                    "BRMEN",
+                    "BOSSA",
+                    "DAGI",
+                    "DERIM",
+                    "DESA",
+                    "DIRIT",
+                    "ENSRI",
+                    "HATEK",
+                    "ISSEN",
+                    "KRTEK",
+                    "KORDS",
+                    "LUKSK",
+                    "MEGAP",
+                    "MNDRS",
+                    "RODRG",
+                    "ROYAL",
+                    "RUBNS",
+                    "SKTAS",
+                    "SNPAM",
+                    "SUNTK",
+                    "YATAS",
+                    "YUNSA"
+                ]
+            },
+            {
+                "name": "ORMAN ÜRÜNLERİ VE MOBİLYA",
+                "companies": [
+                    "DGNMO",
+                    "GENTS",
+                    "KLSYN",
+                    "ORMA",
+                    "SUMAS",
+                    "YONGA"
+                ]
+            },
+            {
+                "name": "KAĞIT VE KAĞIT ÜRÜNLERİ BASIM",
+                "companies": [
+                    "ALKA",
+                    "BAKAB",
+                    "BARMA",
+                    "DURDO",
+                    "TEZOL",
+                    "GIPTA",
+                    "KAPLM",
+                    "KARTN",
+                    "KONKA",
+                    "LILAK",
+                    "MNDTR",
+                    "PRZMA",
+                    "SAMAT",
+                    "VKING"
+                ]
+            },
+            {
+                "name": "KİMYA İLAÇ PETROL LASTİK VE PLASTİK ÜRÜNLER",
+                "companies": [
+                    "ACSEL",
+                    "AKSA",
+                    "ALKIM",
+                    "ANGEN",
+                    "AYGAZ",
+                    "BAGFS",
+                    "BAHKM",
+                    "BAYRK",
+                    "BRKSN",
+                    "BRISA",
+                    "DEVA",
+                    "DNISI",
+                    "DYOBY",
+                    "EGGUB",
+                    "EPLAS",
+                    "EGPRO",
+                    "EMNIS",
+                    "EUREN",
+                    "GEDZA",
+                    "GOODY",
+                    "GUBRF",
+                    "HEKTS",
+                    "ISKPL",
+                    "IZFAS",
+                    "KMPUR",
+                    "KRPLS",
+                    "KOPOL",
+                    "KBORU",
+                    "MRSHL",
+                    "MEDTR",
+                    "MERCN",
+                    "ONCSM",
+                    "OZRDN",
+                    "PETKM",
+                    "POLTK",
+                    "RNPOL",
+                    "RTALB",
+                    "SANFM",
+                    "SASA",
+                    "SEKUR",
+                    "SEYKM",
+                    "SODSN",
+                    "TARKM",
+                    "TMPOL",
+                    "TRILC",
+                    "TUPRS"
+                ]
+            },
+            {
+                "name": "TAŞ VE TOPRAĞA DAYALI",
+                "companies": [
+                    "AFYON",
+                    "AKCNS",
+                    "BASCM",
+                    "BTCIM",
+                    "BSOKE",
+                    "BIENY",
+                    "BOBET",
+                    "BUCIM",
+                    "CGCAM",
+                    "CMBTN",
+                    "CMENT",
+                    "CIMSA",
+                    "DOGUB",
+                    "EGSER",
+                    "GOLTS",
+                    "KLKIM",
+                    "KLSER",
+                    "KONYA",
+                    "KUTPO",
+                    "LMKDC",
+                    "NIBAS",
+                    "NUHCM",
+                    "OYAKC",
+                    "QUAGR",
+                    "SERNT",
+                    "MARBL",
+                    "USAK",
+                    "YBTAS"
+                ]
+            },
+            {
+                "name": "ANA METAL SANAYİ",
+                "companies": [
+                    "AYES",
+                    "BMSTL",
+                    "BMSCH",
+                    "BRSAN",
+                    "BURCE",
+                    "BURVA",
+                    "CELHA",
+                    "CEMAS",
+                    "CEMTS",
+                    "CUSAN",
+                    "DMSAS",
+                    "DOFER",
+                    "DOKTA",
+                    "ERBOS",
+                    "ERCB",
+                    "EREGL",
+                    "ISDMR",
+                    "IZMDC",
+                    "KRDMA, KRDMB, KRDMD",
+                    "TCKRC",
+                    "KCAER",
+                    "KOCMT",
+                    "MEGMT",
+                    "OZYSR",
+                    "PNLSN",
+                    "SARKY",
+                    "TUCLK",
+                    "YKSLN"
+                ]
+            },
+            {
+                "name": "METAL EŞYA MAKİNE ELEKTRİKLİ CİHAZLAR VE ULAŞIM ARAÇLARI",
+                "companies": [
+                    "ALCAR",
+                    "ALVES",
+                    "ASUZU",
+                    "ARCLK",
+                    "ASTOR",
+                    "BALAT",
+                    "BNTAS",
+                    "BFREN",
+                    "BVSAN",
+                    "DITAS",
+                    "EGEEN",
+                    "EKOS",
+                    "EMKEL",
+                    "EUPWR",
+                    "FMIZP",
+                    "FROTO",
+                    "FORMT",
+                    "GEREL",
+                    "HATSN",
+                    "HKTM",
+                    "IHEVA",
+                    "IMASM",
+                    "JANTS",
+                    "KARSN",
+                    "KATMR",
+                    "KLMSN",
+                    "MAKIM",
+                    "MAKTK",
+                    "MEKAG",
+                    "OTKAR",
+                    "OZATD",
+                    "PARSN",
+                    "SAFKR",
+                    "SNICA",
+                    "SAYAS",
+                    "SILVR",
+                    "TOASO",
+                    "TMSN",
+                    "PRKAB",
+                    "TTRAK",
+                    "ULUSE",
+                    "VESBE",
+                    "VESTL",
+                    "YIGIT"
+                ]
+            },
+            {
+                "name": "DİĞER İMALAT SANAYİİ",
+                "companies": [
+                    "ADEL"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ELEKTRİK GAZ VE SU",
+        "companies": [
+            "A1YEN",
+            "AHGAZ",
+            "AKENR",
+            "AKFYE",
+            "AKSEN",
+            "AKSUE",
+            "ALFAS",
+            "AYDEM",
+            "AYEN",
+            "BIOEN",
+            "BIGEN",
+            "CONSE",
+            "CWENE",
+            "CANTE",
+            "CATES",
+            "ARASE",
+            "ENDAE",
+            "ENJSA",
+            "ENERY",
+            "ESEN",
+            "GWIND",
+            "HUNER",
+            "ENTRA",
+            "IZENR",
+            "KLYPV",
+            "LYDYE",
+            "MAGEN",
+            "MOGAN",
+            "NTGAZ",
+            "NATEN",
+            "ODAS",
+            "PAMEL",
+            "SMRTG",
+            "TATEN",
+            "ZEDUR",
+            "ZOREN"
+        ],
+        "sub_sectors": [
+            {
+                "name": "ELEKTRİK GAZ VE BUHAR",
+                "companies": [
+                    "A1YEN",
+                    "AHGAZ",
+                    "AKENR",
+                    "AKFYE",
+                    "AKSEN",
+                    "AKSUE",
+                    "ALFAS",
+                    "AYDEM",
+                    "AYEN",
+                    "BIOEN",
+                    "BIGEN",
+                    "CONSE",
+                    "CWENE",
+                    "CANTE",
+                    "CATES",
+                    "ARASE",
+                    "ENDAE",
+                    "ENJSA",
+                    "ENERY",
+                    "ESEN",
+                    "GWIND",
+                    "HUNER",
+                    "ENTRA",
+                    "IZENR",
+                    "KLYPV",
+                    "LYDYE",
+                    "MAGEN",
+                    "MOGAN",
+                    "NTGAZ",
+                    "NATEN",
+                    "ODAS",
+                    "PAMEL",
+                    "SMRTG",
+                    "TATEN",
+                    "ZEDUR",
+                    "ZOREN"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "İNŞAAT VE BAYINDIRLIK",
+        "companies": [
+            "AKFIS",
+            "ANELE",
+            "BRLSM",
+            "DAPGM",
+            "EDIP",
+            "ENKAI",
+            "GESAN",
+            "GLRMK",
+            "KUYAS",
+            "ORGE",
+            "SANEL",
+            "TURGG",
+            "YAYLA",
+            "YYAPI"
+        ],
+        "sub_sectors": [
+            {
+                "name": "İNŞAAT VE BAYINDIRLIK İŞLERİ",
+                "companies": [
+                    "AKFIS",
+                    "ANELE",
+                    "BRLSM",
+                    "DAPGM",
+                    "EDIP",
+                    "ENKAI",
+                    "GESAN",
+                    "GLRMK",
+                    "KUYAS",
+                    "ORGE",
+                    "SANEL",
+                    "TURGG",
+                    "YAYLA",
+                    "YYAPI"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TOPTAN VE PERAKENDE TİCARET",
+        "companies": [
+            "ARZUM",
+            "BIMAS",
+            "BIZIM",
+            "CRFSA",
+            "CASA",
+            "DCTTR",
+            "DOAS",
+            "EBEBK",
+            "KIMMR",
+            "GENIL",
+            "GMTAS",
+            "INTEM",
+            "KOTON",
+            "KUVVA",
+            "MAVI",
+            "MEPET",
+            "MGROS",
+            "MOPAS",
+            "PSDTC",
+            "SANKO",
+            "SELEC",
+            "SUWEN",
+            "SOKM",
+            "TKNSA",
+            "TGSAS",
+            "VAKKO"
+        ],
+        "sub_sectors": [
+            {
+                "name": "TOPTAN TİCARET",
+                "companies": [
+                    "ARZUM",
+                    "DCTTR",
+                    "DOAS",
+                    "GENIL",
+                    "INTEM",
+                    "KUVVA",
+                    "PSDTC",
+                    "SANKO",
+                    "SELEC",
+                    "TGSAS"
+                ]
+            },
+            {
+                "name": "PERAKENDE TİCARET",
+                "companies": [
+                    "BIMAS",
+                    "BIZIM",
+                    "CRFSA",
+                    "CASA",
+                    "EBEBK",
+                    "KIMMR",
+                    "GMTAS",
+                    "KOTON",
+                    "MAVI",
+                    "MEPET",
+                    "MGROS",
+                    "MOPAS",
+                    "SUWEN",
+                    "SOKM",
+                    "TKNSA",
+                    "VAKKO"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ULAŞTIRMA VE DEPOLAMA",
+        "companies": [
+            "BEYAZ",
+            "CLEBI",
+            "GSDDE",
+            "GRSEL",
+            "HRKET",
+            "HOROZ",
+            "PASEU",
+            "PGSUS",
+            "RYSAS",
+            "TLMAN",
+            "TUREX",
+            "THYAO"
+        ],
+        "sub_sectors": [
+            {
+                "name": "ULAŞTIRMA VE DEPOLAMA",
+                "companies": [
+                    "BEYAZ",
+                    "CLEBI",
+                    "GSDDE",
+                    "GRSEL",
+                    "HRKET",
+                    "HOROZ",
+                    "PASEU",
+                    "PGSUS",
+                    "RYSAS",
+                    "TLMAN",
+                    "TUREX",
+                    "THYAO"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MALİ KURULUŞLAR",
+        "companies": [
+            "BINHO",
+            "A1CAP, ACP",
+            "ADGYO",
+            "AGHOL",
+            "AGESA",
+            "AHSGY",
+            "AKBNK",
+            "AKYHO",
+            "AKFGY",
+            "AKSGY",
+            "AKMGY",
+            "AKGRT",
+            "ALGYO",
+            "ALARK",
+            "ALBRK, ALK",
+            "ANSGR",
+            "ANHYT",
+            "ASGYO",
+            "ATAGY",
+            "AGYO",
+            "ATSYH",
+            "ATLAS",
+            "AVGYO",
+            "AVPGY",
+            "AVHOL",
+            "BASGZ",
+            "BEGYO",
+            "BERA",
+            "BRKVY",
+            "BRYAT",
+            "BULGS",
+            "COSMO",
+            "CRDFA",
+            "DAGHL",
+            "DENGE",
+            "DZGYO",
+            "DERHL",
+            "DSTKF",
+            "DOHOL",
+            "DGGYO",
+            "ECZYT",
+            "EGEGY",
+            "ECILC",
+            "EKGYO",
+            "EUKYO",
+            "EUYO",
+            "ETYAT",
+            "EUHOL",
+            "EYGYO",
+            "FZLGY",
+            "GARFA",
+            "GRNYO",
+            "GEDIK",
+            "GLCVY",
+            "GLB, GLBMD",
+            "GLYHO",
+            "GOZDE",
+            "GRTHO",
+            "GSDHO",
+            "GLRYH",
+            "SAHOL",
+            "HLGYO",
+            "HDFGS",
+            "HEDEF",
+            "HUBVC",
+            "ICB, ICBCT",
+            "ICUGS",
+            "INVEO",
+            "INVES",
+            "IEYHO",
+            "IDGYO",
+            "IHLAS",
+            "IHYAY",
+            "INFO, IYF",
+            "ISBIR",
+            "ISFIN",
+            "ISGYO",
+            "ISGSY",
+            "ISMEN, IYM",
+            "ISYAT",
+            "KTLEV",
+            "KERVN",
+            "KZBGY",
+            "KLGYO",
+            "KLRHO",
+            "KCHOL",
+            "KGYO",
+            "KRGYO",
+            "KZGYO",
+            "LIDFA",
+            "LRSHO",
+            "LYDHO",
+            "MARKA",
+            "MRGYO",
+            "MZHLD",
+            "METUR",
+            "METRO",
+            "MTRYO",
+            "MHRGY",
+            "MSGYO",
+            "MMCAS",
+            "NTHOL",
+            "NUGYO",
+            "OMD, OSMEN",
+            "OSTIM",
+            "OTTO",
+            "OYA, OYYAT",
+            "OYAYO",
+            "OZKGY",
+            "OZGYO",
+            "PAGYO",
+            "PRDGS",
+            "PSGYO",
+            "PEKGY",
+            "PEHOL",
+            "POLHO",
+            "FIN, QNBTR",
+            "QNBFK",
+            "RALYH",
+            "RAYSG",
+            "RYGYO",
+            "SRVGY",
+            "SNGYO",
+            "SURGY",
+            "SMRVA",
+            "SEK, SKBNK",
+            "SEKFK",
+            "SEGYO",
+            "SKY, SKYMD",
+            "TAVHL",
+            "TKFEN",
+            "TERA, TRA",
+            "TRGYO",
+            "TDGYO",
+            "TSGYO",
+            "TRCAS",
+            "GARAN, TGB",
+            "HALKB, THL",
+            "ISATR, ISBTR, ISCTR, ISKUR, TIB",
+            "KLN, KLNMA",
+            "TSK, TSKB",
+            "TURSG",
+            "SISE",
+            "TVB, VAKBN",
+            "UFUK",
+            "ULUFA",
+            "UMPAS",
+            "UNLU",
+            "VAKFN",
+            "VKGYO",
+            "VKFYO",
+            "VRGYO",
+            "VERUS",
+            "VERTU",
+            "YKB, YKBNK",
+            "YGGYO",
+            "YGYO",
+            "YESIL",
+            "ZRGYO"
+        ],
+        "sub_sectors": [
+            {
+                "name": "FİNANSMAN ŞİRKETLERİ",
+                "companies": [
+                    "KTLEV"
+                ]
+            },
+            {
+                "name": "VARLIK YÖNETİM ŞİRKETLERİ",
+                "companies": [
+                    "BRKVY",
+                    "GLCVY",
+                    "SMRVA"
+                ]
+            },
+            {
+                "name": "BANKALAR",
+                "companies": [
+                    "AKBNK",
+                    "ALBRK, ALK",
+                    "ICB, ICBCT",
+                    "FIN, QNBTR",
+                    "SEK, SKBNK",
+                    "GARAN, TGB",
+                    "HALKB, THL",
+                    "ISATR, ISBTR, ISCTR, ISKUR, TIB",
+                    "KLN, KLNMA",
+                    "TSK, TSKB",
+                    "TVB, VAKBN",
+                    "YKB, YKBNK"
+                ]
+            },
+            {
+                "name": "SİGORTA ŞİRKETLERİ",
+                "companies": [
+                    "AGESA",
+                    "AKGRT",
+                    "ANSGR",
+                    "ANHYT",
+                    "RAYSG",
+                    "TURSG"
+                ]
+            },
+            {
+                "name": "FİNANSAL KİRALAMA VE FAKTORİNG ŞİRKETLERİ",
+                "companies": [
+                    "CRDFA",
+                    "DSTKF",
+                    "GARFA",
+                    "ISFIN",
+                    "LIDFA",
+                    "QNBFK",
+                    "SEKFK",
+                    "ULUFA",
+                    "VAKFN"
+                ]
+            },
+            {
+                "name": "HOLDİNGLER VE YATIRIM ŞİRKETLERİ",
+                "companies": [
+                    "BINHO",
+                    "AGHOL",
+                    "AKYHO",
+                    "ALARK",
+                    "ATSYH",
+                    "AVHOL",
+                    "BERA",
+                    "BRYAT",
+                    "COSMO",
+                    "DAGHL",
+                    "DENGE",
+                    "DERHL",
+                    "DOHOL",
+                    "ECZYT",
+                    "ECILC",
+                    "EUHOL",
+                    "GLYHO",
+                    "GRTHO",
+                    "GSDHO",
+                    "GLRYH",
+                    "SAHOL",
+                    "HEDEF",
+                    "INVEO",
+                    "INVES",
+                    "IEYHO",
+                    "IHLAS",
+                    "IHYAY",
+                    "ISBIR",
+                    "KERVN",
+                    "KLRHO",
+                    "KCHOL",
+                    "LRSHO",
+                    "LYDHO",
+                    "MARKA",
+                    "MZHLD",
+                    "METUR",
+                    "METRO",
+                    "MMCAS",
+                    "NTHOL",
+                    "OSTIM",
+                    "OTTO",
+                    "PEHOL",
+                    "POLHO",
+                    "RALYH",
+                    "TAVHL",
+                    "TKFEN",
+                    "TRCAS",
+                    "SISE",
+                    "UFUK",
+                    "UMPAS",
+                    "UNLU",
+                    "VERUS",
+                    "YESIL"
+                ]
+            },
+            {
+                "name": "DİĞER MALİ KURULUŞLAR",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "ARACI KURUMLAR",
+                "companies": [
+                    "A1CAP, ACP",
+                    "GEDIK",
+                    "GLB, GLBMD",
+                    "INFO, IYF",
+                    "ISMEN, IYM",
+                    "OMD, OSMEN",
+                    "OYA, OYYAT",
+                    "SKY, SKYMD",
+                    "TERA, TRA"
+                ]
+            },
+            {
+                "name": "GAYRİMENKUL YATIRIM ORTAKLIKLARI",
+                "companies": [
+                    "ADGYO",
+                    "AHSGY",
+                    "AKFGY",
+                    "AKSGY",
+                    "AKMGY",
+                    "ALGYO",
+                    "ASGYO",
+                    "ATAGY",
+                    "AGYO",
+                    "AVGYO",
+                    "AVPGY",
+                    "BASGZ",
+                    "BEGYO",
+                    "DZGYO",
+                    "DGGYO",
+                    "EGEGY",
+                    "EKGYO",
+                    "EYGYO",
+                    "FZLGY",
+                    "HLGYO",
+                    "IDGYO",
+                    "ISGYO",
+                    "KZBGY",
+                    "KLGYO",
+                    "KGYO",
+                    "KRGYO",
+                    "KZGYO",
+                    "MRGYO",
+                    "MHRGY",
+                    "MSGYO",
+                    "NUGYO",
+                    "OZKGY",
+                    "OZGYO",
+                    "PAGYO",
+                    "PSGYO",
+                    "PEKGY",
+                    "RYGYO",
+                    "SRVGY",
+                    "SNGYO",
+                    "SURGY",
+                    "SEGYO",
+                    "TRGYO",
+                    "TDGYO",
+                    "TSGYO",
+                    "VKGYO",
+                    "VRGYO",
+                    "YGGYO",
+                    "YGYO",
+                    "ZRGYO"
+                ]
+            },
+            {
+                "name": "MENKUL KIYMET YATIRIM ORTAKLIKLARI",
+                "companies": [
+                    "ATLAS",
+                    "EUKYO",
+                    "EUYO",
+                    "ETYAT",
+                    "GRNYO",
+                    "ISYAT",
+                    "MTRYO",
+                    "OYAYO",
+                    "VKFYO"
+                ]
+            },
+            {
+                "name": "GİRİŞİM SERMAYESİ YATIRIM ORTAKLIKLARI",
+                "companies": [
+                    "BULGS",
+                    "GOZDE",
+                    "HDFGS",
+                    "HUBVC",
+                    "ICUGS",
+                    "ISGSY",
+                    "PRDGS",
+                    "VERTU"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EĞİTİM SAĞLIK SPOR VE EĞLENCE HİZMETLERİ",
+        "companies": [
+            "BJKAS",
+            "FENER",
+            "GSRAY",
+            "LKMNH",
+            "MACKO",
+            "MPARK",
+            "EGEPO",
+            "TNZTP",
+            "TSPOR"
+        ],
+        "sub_sectors": [
+            {
+                "name": "SPOR EĞLENCE BOŞ ZAMANLARI DEĞERLENDİRME HİZMETLERİ",
+                "companies": [
+                    "MACKO"
+                ]
+            },
+            {
+                "name": "İNSAN SAĞLIĞI VE SOSYAL HİZMETLER",
+                "companies": [
+                    "LKMNH",
+                    "MPARK",
+                    "EGEPO",
+                    "TNZTP"
+                ]
+            },
+            {
+                "name": "YARATICI SANATLAR GÖSTERİ SANATLARI VE EĞLENCE FAALİYETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "SPOR FAALİYETLERİ EĞLENCE VE OYUN FAALİYETLERİ",
+                "companies": [
+                    "BJKAS",
+                    "FENER",
+                    "GSRAY",
+                    "TSPOR"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TEKNOLOJİ",
+        "companies": [
+            "ALCTL",
+            "ALTNY",
+            "ARDYZ",
+            "ARENA",
+            "ASELS",
+            "ATATP",
+            "AZTEK",
+            "BINBN",
+            "DGATE",
+            "DESPC",
+            "EDATA",
+            "ESCOM",
+            "FONET",
+            "FORTE",
+            "HTTBT",
+            "INGRM",
+            "INDES",
+            "INTEK",
+            "KFEIN",
+            "KAREL",
+            "KRONT",
+            "LINK",
+            "LOGO",
+            "MANAS",
+            "MTRKS",
+            "MIATK",
+            "MOBTL",
+            "NETAS",
+            "OBASE",
+            "ODINE",
+            "ONRYT",
+            "PAPIL",
+            "PATEK",
+            "PENTA",
+            "PKART",
+            "REEDR",
+            "SDTTR",
+            "SMART",
+            "VBTYZ"
+        ],
+        "sub_sectors": [
+            {
+                "name": "BİLİŞİM",
+                "companies": [
+                    "ALCTL",
+                    "ARDYZ",
+                    "ARENA",
+                    "ATATP",
+                    "AZTEK",
+                    "BINBN",
+                    "DGATE",
+                    "DESPC",
+                    "EDATA",
+                    "ESCOM",
+                    "FONET",
+                    "FORTE",
+                    "HTTBT",
+                    "INGRM",
+                    "INDES",
+                    "INTEK",
+                    "KFEIN",
+                    "KAREL",
+                    "KRONT",
+                    "LINK",
+                    "LOGO",
+                    "MANAS",
+                    "MTRKS",
+                    "MIATK",
+                    "MOBTL",
+                    "NETAS",
+                    "OBASE",
+                    "ODINE",
+                    "PAPIL",
+                    "PATEK",
+                    "PENTA",
+                    "PKART",
+                    "REEDR",
+                    "SMART",
+                    "VBTYZ"
+                ]
+            },
+            {
+                "name": "SAVUNMA",
+                "companies": [
+                    "ALTNY",
+                    "ASELS",
+                    "ONRYT",
+                    "SDTTR"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MESLEKİ, BİLİMSEL VE TEKNİK FAALİYETLER",
+        "companies": [
+            "KONTR",
+            "PCILT",
+            "SKYLP",
+            "YEOTK"
+        ],
+        "sub_sectors": [
+            {
+                "name": "HUKUK VE MUHASEBE FAALİYETLERİ",
+                "companies": [
+                    "SKYLP"
+                ]
+            },
+            {
+                "name": "İDARE MERKEZİ FAALİYETLERİ; İDARİ DANIŞMANLIK FAALİYETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "MİMARLIK VE MÜHENDİSLİK FAALİYETLERİ; TEKNİK MUAYENE VE ANALİZ",
+                "companies": [
+                    "KONTR",
+                    "YEOTK"
+                ]
+            },
+            {
+                "name": "BİLİMSEL ARAŞTIRMA VE GELİŞTİRME FAALİYETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "REKLAMCILIK VE PAZAR ARAŞTIRMASI",
+                "companies": [
+                    "PCILT"
+                ]
+            },
+            {
+                "name": "DİĞER PROFESYONEL, BİLİMSEL VE TEKNİK FAALİYETLER",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "VETERİNERLİK HİZMETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            }
+        ]
+    },
+    {
+        "name": "İDARİ VE DESTEK HİZMET FAALİYETLERİ",
+        "companies": [
+            "BORLS",
+            "CEOEM",
+            "ESCAR",
+            "FLAP",
+            "GZNMI",
+            "LIDER",
+            "PLTUR",
+            "SNKRN"
+        ],
+        "sub_sectors": [
+            {
+                "name": "KİRALAMA VE LEASING FAALİYETLERİ",
+                "companies": [
+                    "BORLS",
+                    "ESCAR",
+                    "LIDER",
+                    "PLTUR"
+                ]
+            },
+            {
+                "name": "İSTİHDAM FAALİYETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "SEYAHAT ACENTESİ, TUR OPERATÖRÜ VE DİĞER REZERVASYON HİZMETLERİ İLE İLGİLİ FAALİYETLER",
+                "companies": [
+                    "GZNMI"
+                ]
+            },
+            {
+                "name": "GÜVENLİK VE SORUŞTURMA FAALİYETLERİ",
+                "companies": [
+                    "SNKRN"
+                ]
+            },
+            {
+                "name": "BİNALAR VE ÇEVRE DÜZENLEMESİ FAALİYETLERİ",
+                "companies": []
+            },
+            {
+                "name": "Kayıt Bulunamadı!",
+                "companies": []
+            },
+            {
+                "name": "BÜRO YÖNETİMİ, BÜRO DESTEĞİ VE DİĞER ŞİRKET DESTEK FAALİYETLERİ",
+                "companies": [
+                    "CEOEM",
+                    "FLAP"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GAYRİMENKUL FAALİYETLERİ",
+        "companies": [
+            "ADESE",
+            "IHLGM",
+            "RGYAS",
+            "SONME"
+        ],
+        "sub_sectors": [
+            {
+                "name": "GAYRİMENKUL FAALİYETLERİ",
+                "companies": [
+                    "ADESE",
+                    "IHLGM",
+                    "RGYAS",
+                    "SONME"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OTELLER VE LOKANTALAR",
+        "companies": [
+            "AYCES",
+            "AVTUR",
+            "BYDNR",
+            "BIGCH",
+            "DOCO",
+            "ETILR",
+            "KSTUR",
+            "MAALT",
+            "MARTI",
+            "MERIT",
+            "PKENT",
+            "TABGD",
+            "TEKTU",
+            "ULAS"
+        ],
+        "sub_sectors": [
+            {
+                "name": "KONAKLAMA",
+                "companies": [
+                    "AYCES",
+                    "AVTUR",
+                    "KSTUR",
+                    "MAALT",
+                    "MARTI",
+                    "MERIT",
+                    "PKENT",
+                    "TEKTU",
+                    "ULAS"
+                ]
+            },
+            {
+                "name": "YİYECEK VE İÇECEK HİZMETLERİ",
+                "companies": [
+                    "BYDNR",
+                    "BIGCH",
+                    "DOCO",
+                    "ETILR",
+                    "TABGD"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BİLGİ VE İLETİŞİM",
+        "companies": [
+            "DOBUR",
+            "HURGZ",
+            "IHGZT",
+            "IHAAS",
+            "TCELL",
+            "TTKOM"
+        ],
+        "sub_sectors": [
+            {
+                "name": "BİLGİ HİZMET FAALİYETLERİ",
+                "companies": [
+                    "IHAAS"
+                ]
+            },
+            {
+                "name": "YAYIMCILIK",
+                "companies": [
+                    "DOBUR",
+                    "HURGZ",
+                    "IHGZT"
+                ]
+            },
+            {
+                "name": "TELEKOMÜNİKASYON",
+                "companies": [
+                    "TCELL",
+                    "TTKOM"
+                ]
+            }
+        ]
+    }
+]

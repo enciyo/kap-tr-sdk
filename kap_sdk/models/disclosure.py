@@ -1,5 +1,6 @@
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from typing import Optional, List
+
 
 @dataclass
 class DisclosureBasic:
@@ -27,6 +28,10 @@ class DisclosureBasic:
     isChanged: Optional[bool]
     isBlocked: bool
 
+    def dict(self):
+        return asdict(self)
+
+
 @dataclass
 class DisclosureDetail:
     ftNiteligi: Optional[str]
@@ -44,7 +49,14 @@ class DisclosureDetail:
     blockedDescription: Optional[str]
     memberType: Optional[str]
 
+    def dict(self):
+        return asdict(self)
+
+
 @dataclass
 class Disclosure:
     disclosureBasic: DisclosureBasic
     disclosureDetail: DisclosureDetail
+
+    def dict(self):
+        return asdict(self)

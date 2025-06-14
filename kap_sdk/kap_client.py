@@ -1,100 +1,132 @@
 import os
 import tempfile
-from kap_sdk.models.announcement_type import AnnouncementType, FundType, MemberType
-import datetime
+import logging
 from datetime import datetime, timedelta
 import requests
 import diskcache
-from kap_sdk._companies import scrape_companies
-from kap_sdk._indices import scrape_indices
-from kap_sdk._company_info import scrape_company_info
+from typing import Optional, List, Dict, Any
+from kap_sdk.models.announcement_type import AnnouncementType, FundType, MemberType
+from kap_sdk.models.company import Company, scrape_companies
+from kap_sdk.models.indices import Indice, scrape_indices
+from kap_sdk.models.company_info import CompanyInfo, scrape_company_info
+from kap_sdk.models.sectors import Sector, scrape_sectors
 from kap_sdk._financial_report import get_financial_report
 from kap_sdk._search_oid import _search_oid
-from kap_sdk.models.announcement_type import AnnouncementType, FundType, MemberType
-from kap_sdk.models.company import Company
 from kap_sdk.models.disclosure import Disclosure, DisclosureBasic, DisclosureDetail
-from kap_sdk.models.indices import Indice
-from kap_sdk.models.company_info import CompanyInfo
-from kap_sdk.models.sectors import Sector
-from kap_sdk._sectors import scrape_sectors
-from typing import Optional
-
 
 _CACHE_DIR = os.path.join(tempfile.gettempdir(), "kap_cache")
 os.makedirs(_CACHE_DIR, exist_ok=True)
 
-
 class KapClient:
-
     def __init__(
         self,
-        cache_expiry=3600
+        cache_expiry: int = 3600,
+        company_cache_expiry: int = 86400,
+        indices_cache_expiry: int = 86400,
+        sectors_cache_expiry: int = 86400
     ):
         self.cache = diskcache.Cache(_CACHE_DIR)
         self.cache_expiry = cache_expiry
+        self.company_cache_expiry = company_cache_expiry
+        self.indices_cache_expiry = indices_cache_expiry
+        self.sectors_cache_expiry = sectors_cache_expiry
+        logging.info("KapClient initialized with custom cache expiry settings.")
 
-    async def get_companies(self) -> list[Company]:
+    async def get_companies(self) -> List[Company]:
         key = "companies"
         cached_companies = self.cache.get(key=key)
         if cached_companies:
+            logging.info("Returning cached companies list.")
             return cached_companies
-        companies = await scrape_companies()
-        self.cache.set(key, companies, expire=self.cache_expiry)
-        return companies
+        try:
+            companies = await scrape_companies()
+            self.cache.set(key, [company.dict() for company in companies], expire=self.company_cache_expiry)
+            logging.info(f"Scraped and cached {len(companies)} companies.")
+            return companies
+        except Exception as e:
+            logging.error(f"Error scraping companies: {e}")
+            raise
 
-    async def get_indices(self) -> list[Indice]:
+    async def get_indices(self) -> List[Indice]:
         key = "indices"
         cached_indices = self.cache.get(key=key)
         if cached_indices:
+            logging.info("Returning cached indices list.")
             return cached_indices
-        indices = await scrape_indices()
-        self.cache.set(key, indices, expire=self.cache_expiry)
-        return indices
+        try:
+            indices = await scrape_indices()
+            self.cache.set(key, [indice.dict() for indice in indices], expire=self.indices_cache_expiry)
+            logging.info(f"Scraped and cached {len(indices)} indices.")
+            return indices
+        except Exception as e:
+            logging.error(f"Error scraping indices: {e}")
+            raise
 
     async def get_company(self, code: str) -> Optional[Company]:
         companies = await self.get_companies()
         for company in companies:
             if company.code == code:
+                logging.info(f"Found company with code {code}.")
                 return company
+        logging.warning(f"Company with code {code} not found.")
         return None
 
     async def get_indice(self, code: str) -> Optional[Indice]:
         indices = await self.get_indices()
         for indice in indices:
             if indice.code == code:
+                logging.info(f"Found indice with code {code}.")
                 return indice
+        logging.warning(f"Indice with code {code} not found.")
         return None
 
     async def get_company_info(self, company: Company) -> Optional[CompanyInfo]:
         key = f"infos_{company.code}"
         cached_company_info = self.cache.get(key=key)
         if cached_company_info:
+            logging.info(f"Returning cached company info for {company.code}.")
             return cached_company_info
-        company_info = await scrape_company_info(company)
-        self.cache.set(key, company_info, expire=self.cache_expiry)
-        return company_info
+        try:
+            company_info = await scrape_company_info(company)
+            self.cache.set(key, company_info.dict(), expire=self.cache_expiry)
+            logging.info(f"Scraped and cached company info for {company.code}.")
+            return company_info
+        except Exception as e:
+            logging.error(f"Error scraping company info for {company.code}: {e}")
+            raise
 
-    async def get_financial_report(self, company: Company, year: str = "2023") -> dict:
+    async def get_financial_report(self, company: Company, year: str = "2023") -> Dict[str, Any]:
         key = f"financial_report_{company.code}_{year}"
         cached_financial_report = self.cache.get(key=key)
         if cached_financial_report:
+            logging.info(f"Returning cached financial report for {company.code}, year {year}.")
             return cached_financial_report
-        financial_report = await get_financial_report(company=company, year=year)
-        self.cache.set(key, financial_report, expire=self.cache_expiry)
-        return financial_report
+        try:
+            financial_report = await get_financial_report(company=company, year=year)
+            self.cache.set(key, financial_report, expire=self.cache_expiry)
+            logging.info(f"Scraped and cached financial report for {company.code}, year {year}.")
+            return financial_report
+        except Exception as e:
+            logging.error(f"Error scraping financial report for {company.code}, year {year}: {e}")
+            raise
 
     async def get_announcements(
         self,
         company: Company = None,
-        fromdate=datetime.today().date() - timedelta(days=30),
-        todate=datetime.today().date(),
-        disclosure_type: list[AnnouncementType] = None,
-        fund_types: list[FundType] = FundType.default(),
-        member_types: list[MemberType] = MemberType.default(),
-    ) -> list[Disclosure]:
+        fromdate: datetime.date = datetime.today().date() - timedelta(days=30),
+        todate: datetime.date = datetime.today().date(),
+        disclosure_type: Optional[List[AnnouncementType]] = None,
+        fund_types: List[FundType] = FundType.default(),
+        member_types: List[MemberType] = MemberType.default(),
+    ) -> List[Disclosure]:
         oid = None
         if company:
-            oid = _search_oid(company)
+            try:
+                oid = _search_oid(company)
+                logging.info(f"Retrieved OID for company {company.code}.")
+            except Exception as e:
+                logging.error(f"Error retrieving OID for company {company.code}: {e}")
+                raise
 
         data = {
             "fromDate": fromdate.strftime("%d.%m.%Y"),
@@ -104,24 +136,37 @@ class KapClient:
             "memberTypes": member_types,
             "mkkMemberOid": oid,
         }
-        response = requests.post(
-            "https://www.kap.org.tr/tr/api/disclosure/list/main", json=data)
-        response.raise_for_status()
-        json_data = response.json()
-        disclosures = [Disclosure(
-            disclosureBasic=DisclosureBasic(**item["disclosureBasic"]),
-            disclosureDetail=DisclosureDetail(**item["disclosureDetail"])
-        ) for item in json_data]
-        return disclosures
+        try:
+            response = requests.post("https://www.kap.org.tr/tr/api/disclosure/list/main", json=data)
+            response.raise_for_status()
+            json_data = response.json()
+            disclosures = [
+                Disclosure(
+                    disclosureBasic=DisclosureBasic(**item["disclosureBasic"]),
+                    disclosureDetail=DisclosureDetail(**item["disclosureDetail"])
+                ) for item in json_data
+            ]
+            logging.info(f"Retrieved {len(disclosures)} announcements.")
+            return disclosures
+        except Exception as e:
+            logging.error(f"Error retrieving announcements: {e}")
+            raise
 
-    async def get_sectors(self) -> list[Sector]:
+    async def get_sectors(self) -> List[Sector]:
         key = "sectors"
         cached_sectors = self.cache.get(key=key)
         if cached_sectors:
+            logging.info("Returning cached sectors list.")
             return cached_sectors
-        sectors = await scrape_sectors()
-        self.cache.set(key, sectors, expire=self.cache_expiry)
-        return sectors
+        try:
+            sectors = await scrape_sectors()
+            self.cache.set(key, [sector.dict() for sector in sectors], expire=self.sectors_cache_expiry)
+            logging.info(f"Scraped and cached {len(sectors)} sectors.")
+            return sectors
+        except Exception as e:
+            logging.error(f"Error scraping sectors: {e}")
+            raise
 
-    def clear_cache(self):
+    def clear_cache(self) -> None:
         self.cache.clear()
+        logging.info("Cache cleared.")

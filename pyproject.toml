@@ -1,0 +1,30 @@
+[project]
+name = "kap_sdk"
+version = "0.1.22"
+description = "KAP (Kamuyu Aydınlatma Platformu) üzerinden veri çekmek için bir Python SDK"
+authors = [{name = "Mustafa Kilic", email = "mustafa@example.com"}]
+readme = "README.md"
+keywords = ["kap", "public disclosure platform", "data scraping", "financial data"]
+license = {text = "MIT"}
+requires-python = ">=3.8.1"
+dependencies = [
+    "requests>=2.28.1",
+    "beautifulsoup4>=4.11.1",
+    "pyppeteer>=1.0.2",
+    "diskcache>=5.4.0",
+    "pandas>=1.5.0",
+    "lxml>=4.9.1",
+    "tomli>=2.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.1",
+    "black>=23.3.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
