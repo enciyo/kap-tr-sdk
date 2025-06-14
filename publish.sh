@@ -16,8 +16,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Versiyon numarasını al
-version=$(python setup.py --version)
+# Versiyon numarasını pyproject.toml dosyasından al
+version=$(uv python run python -c "import tomli; print(tomli.load(open('pyproject.toml', 'rb'))['project']['version'])")
 if [ -z "$version" ]; then
     echo "Versiyon numarası alınamadı!"
     exit 1
